@@ -1,9 +1,9 @@
 ---
-title: Other SBC
+title: Armbian
 weight: 2
 ---
 
-# Other Single Board Computer
+# Armbian
 
 You have two options to install:
 

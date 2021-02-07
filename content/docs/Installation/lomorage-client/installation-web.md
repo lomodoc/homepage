@@ -11,7 +11,7 @@ If you are using Lomorage Service in MacOS, then you can just click "import" men
 
 If you are using Lomorage Service in Raspberry Pi, then you can use the following command to install Lomorage Web client on your raspberry Pi:
 
-```
+```bash
 sudo apt update
 sudo apt install lomo-web
 ```

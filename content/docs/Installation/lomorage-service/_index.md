@@ -19,7 +19,7 @@ The first step is to set up the Lomorage service.
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-docker/" title="Install Lomorage service using Docker" class="badge docker">Docker</a>
 &nbsp;
-<a href="/docs/Installation/lomorage-service/installation-other-sbc/" title="Install Lomorage service on Armbian" class="badge armbian">Armbian&nbsp;</a>
+<a href="/docs/Installation/lomorage-service/installation-armbian/" title="Install Lomorage service on Armbian" class="badge armbian">Armbian&nbsp;</a>
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-ubuntu/" title="Install Lomorage service on Ubuntu" class="badge ubuntu">Ubuntu</a>
 </p>

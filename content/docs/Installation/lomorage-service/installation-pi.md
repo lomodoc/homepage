@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi
+title: Raspbian
 weight: 1
 ---
 

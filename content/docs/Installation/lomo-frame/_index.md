@@ -9,9 +9,11 @@ weight: 13
 
 You can connect monitor with Raspberry Pi and use that as digital photo frame, and you can setup multiple digital photo frames using Raspberry Pi zero w and access your digital assets via WiFi.
 
-**Lomo-frame only supports on Raspberry Pi, Windows/Mac or the docker version is not supported**
+{{< hint warning >}}
+Lomo-frame only supports on Raspberry Pi, Windows/Mac or the docker version is not supported
+{{< /hint >}}
 
-**If you install the latest Lomorage Raspberry Pi OS image, you should already have the Lomo-frame application installed in that image.**
+If you install the latest Lomorage Raspberry Pi OS image, you should already have the Lomo-frame application installed in that image.
 
 If you don't use Lomorage Raspberry Pi OS image, you can run the following command to install it:
 
