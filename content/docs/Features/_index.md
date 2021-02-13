@@ -4,6 +4,10 @@ bookFlatSection: true
 title: "Features"
 ---
 
+<video width="560" height="315" poster="/poster.png" controls>
+  <source src="/lomorage.mp4" type="video/mp4">
+</video>
+
 # Features
 
 ## Privacy Matters

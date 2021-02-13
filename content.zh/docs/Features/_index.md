@@ -4,6 +4,10 @@ bookFlatSection: true
 title: "功能"
 ---
 
+<video width="560" height="315" poster="/poster.png" controls>
+  <source src="/lomorage.mp4" type="video/mp4">
+</video>
+
 # 功能
 
 ## 保护隐私

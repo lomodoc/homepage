@@ -1,6 +1,6 @@
 ---
 title: Lomorage Frame
-weight: 13
+weight: 12
 ---
 
 # Lomorage Frame
