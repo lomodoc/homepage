@@ -56,6 +56,31 @@ weight: 1
 
 为了更好的性能，建议使用有线网络连接，但如果您想使用WiFi, 您可以登陆树莓派，并使用下面的命令来启用无线连接`wifi_switch.sh client wifi-ssid wifi-password`，将 "wifi-ssid"和"wifi-password"替换为您的无线网络名和密码。*如果您的无线网络名称中有中文字符或者空格，就需要用引号，比如`wifi_switch.sh client "Lomorage的 无线" mypassword`*
 
+{{< hint warning >}}
+您有可能会碰到"Wi-Fi is currently blocked by rfkill"的问题，可以执行下面的命令检查一下WiFi是否被禁用:
+
+```
+pi@raspberrypi:~ $ sudo rfkill list all
+0: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: hci0: Bluetooth
+	Soft blocked: yes
+	Hard blocked: no
+```
+
+您可以使用下面的命令来启用WiFi:
+
+```
+sudo rfkill unblock 0
+```
+
+这里“0”是上面Wireless LAN的序号。
+
+启用之后您可以再尝试`wifi_switch.sh`。
+
+{{< /hint >}}
+
 ## Docker安装
 
 请参考[lomo-docker](https://github.com/lomorage/lomo-docker)安装Docker镜像。请使用arm的镜像"lomorage/raspberrypi-lomorage:latest"。

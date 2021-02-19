@@ -56,6 +56,31 @@ If you have HDMI connected, after system boot successfully, it will show up a sc
 
 We suggest use cable to provide better performance, but if you prefer to use WiFi, you can login Raspberry Pi and use the command `wifi_switch.sh client "wifi-ssid" wifi-password`, replace "wifi-ssid" and "wifi-password" with those of your wifi network. *Make sure you have quotation mark around "wifi-ssid" if you have space or unicode character in it, for example `wifi_switch.sh client "Lomorage's 2.4G" mypassword`.*
 
+{{< hint warning >}}
+You probably will have the problem that "Wi-Fi is currently blocked by rfkill". You can confirm this by running:
+
+```
+pi@raspberrypi:~ $ sudo rfkill list all
+0: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: hci0: Bluetooth
+	Soft blocked: yes
+	Hard blocked: no
+```
+
+And you can enable WiFi by running:
+
+```
+sudo rfkill unblock 0
+```
+
+assuming 0 is the index of Wireless LAN.
+
+After this, you can try `wifi_switch.sh` again.
+
+{{< /hint >}}
+
 ## Docker installation
 
 Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for installation with docker image. You should use the arm image "lomorage/raspberrypi-lomorage:latest".
