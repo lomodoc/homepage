@@ -10,8 +10,8 @@ To use Lomorage, you need to run the Lomorage service in your local network, eit
 
 <img alt="Lomorage" src="/img/installation/All-in-one-en.png">
 
- - 1. [Install Lomorage Service](/docs/Installation/lomorage-service/)
+ - 1. [Install Lomorage Service](docs/Installation/lomorage-service/)
 
- - 2. [Install Lomorage Client](/docs/Installation/lomorage-client/)
+ - 2. [Install Lomorage Client](docs/Installation/lomorage-client/)
 
- - 3. [Install Lomorage Frame (optional)](/docs/Installation/lomo-frame/)
+ - 3. [Install Lomorage Frame (optional)](docs/Installation/lomo-frame/)

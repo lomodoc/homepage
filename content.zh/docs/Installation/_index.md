@@ -10,8 +10,8 @@ title: "安装"
 
 <img alt="Lomorage" src="/img/installation/All-in-one.png">
 
- - 1. [安装Lomorage服务程序](/zh/docs/Installation/lomorage-service/)
+ - 1. [安装Lomorage服务程序](docs/Installation/lomorage-service/)
 
- - 2. [安装Lomorage客户端](/zh/docs/Installation/lomorage-client/)
+ - 2. [安装Lomorage客户端](docs/Installation/lomorage-client/)
 
- - 3. [设置数码相框(可选)](/zh/docs/Installation/lomo-frame/)
+ - 3. [设置数码相框(可选)](docs/Installation/lomo-frame/)
