@@ -19,7 +19,7 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 
 It should support all the SBC supported by official Armbian, but if you find it doesn't work, feel free to reach us.
 
-There is a [prebuild image](https://github.com/lomorage/build/releases/download/2021_02_01.23_18_29.0.829c7a4/Armbian_21.02.0-trunk_Orangepizero_buster_current_5.10.11_minimal.img.xz) for [Orange Pi Zero](http://www.orangepi.org/orangepizero/).
+There is a [prebuild image](https://github.com/lomorage/build/releases/download/2021_02_24.22_52_23.0.baa77e8/Armbian_21.02.0-trunk_Orangepizero_buster_current_5.10.11_minimal.img.xz) for [Orange Pi Zero](http://www.orangepi.org/orangepizero/).
 
 The default Armbian login username is "lomoware" and password is "lomorage".
 
@@ -69,7 +69,7 @@ vagrant up
 vagrant ssh
 ```
 
-- Change to board parameter in "userpatches/config-default.conf", the default is `BOARD="orangepizero"`, if you don't know the board name, you can just use `BOARD=""` and choose the board when compiling.
+- Change to board parameter in "userpatches/config-default.conf", the default is `BOARD="orangepizero"`, if you don't know the board name, you can just use `BOARD=""` and choose the board when compiling, or you can refer to the configuration [here](https://github.com/armbian/build/tree/master/config/boards).
 
 - build image:
 
