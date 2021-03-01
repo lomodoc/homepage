@@ -11,6 +11,9 @@ enableGitInfo = true
 # Enable comments by entering your Disqus shortname
 disqusShortname = "lomorage"
 
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-138235951-1"
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
@@ -29,27 +32,43 @@ disqusShortname = "lomorage"
   contentDir = 'content'
   weight = 1
 
+[languages.en.menu]
+  #[[languages.en.menu.before]]
+  #  name = "Lomorage"
+  #  url = "https://lomorage.com"
+  #  weight = 10
+
+  [[languages.en.menu.after]]
+    name = "Github"
+    url = "https://github.com/lomorage/homepage"
+    weight = 10
+
+  [[languages.en.menu.after]]
+    name = "Homepage"
+    url = "https://lomorage.com"
+    weight = 10
+
 [languages.zh]
   title = 'Lomorage文档'
   languageName = '中文'
   contentDir = 'content.zh'
   weight = 2
 
-[menu]
-#[[menu.before]]
-#  name = "Lomorage"
-#  url = "https://lomorage.com"
-#  weight = 10
+[languages.zh.menu]
+  #[[languages.zh.menu.before]]
+  #  name = "Lomorage"
+  #  url = "https://lomorage.com"
+  #  weight = 10
 
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/lomorage/homepage"
-  weight = 10
+  [[languages.zh.menu.after]]
+    name = "Github"
+    url = "https://github.com/lomorage/homepage"
+    weight = 10
 
-[[menu.after]]
-  name = "Lomorage"
-  url = "https://lomorage.com"
-  weight = 10
+  [[languages.zh.menu.after]]
+    name = "主页"
+    url = "https://lomorage.com"
+    weight = 10
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
