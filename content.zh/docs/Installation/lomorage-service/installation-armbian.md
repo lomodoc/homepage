@@ -19,7 +19,7 @@ weight: 2
 
 下面的步骤应该对于所有Armbian官方支持的SBC都适用，但如果您发现有问题，请联系我们。
 
-这里有已经编译好的[Orange Pi Zero](http://www.orangepi.org/orangepizero/)的[镜像](https://github.com/lomorage/build/releases/download/2021_02_24.22_52_23.0.baa77e8/Armbian_21.02.0-trunk_Orangepizero_buster_current_5.10.11_minimal.img.xz)。
+这里有已经编译好的[Orange Pi Zero](http://www.orangepi.org/orangepizero/)的[镜像](https://github.com/lomorage/build/releases/download/2021_03_22.20_54_20.0.de4aaa6f1/Armbian_21.02.0-trunk_Orangepizero_buster_current_5.10.19_minimal.img.xz)。
 
 Armbian默认的用户名是"lomoware"，密码是"lomorage"。
 
