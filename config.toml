@@ -12,7 +12,7 @@ enableGitInfo = true
 disqusShortname = "lomorage"
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "G-YWDRZL8HB0"
+googleAnalytics = "UA-138235951-2"
 
 # Needed for mermaid/katex shortcodes
 [markup]
