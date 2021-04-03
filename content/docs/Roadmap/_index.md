@@ -2,7 +2,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Features / Roadmap"
+title: "Roadmap"
 ---
 
 # Finished Features
@@ -41,7 +41,7 @@ Turn your any screens into photo frame with Raspberry Pi or Armbian Single Board
 ### Chromecast
 Lomo backend will auto discover chromecast devices, add into the system as family users, then user can share photos / videos to them from mobile client
 
-# Roadmap Features
+# Backlog
 ## All clients
 * Scan and import previous backed-up photos / videos
 * Album management

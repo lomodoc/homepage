@@ -14,7 +14,7 @@ title: "Highlight"
 
 Lomorage is a private photo cloud service which runs on your private network, which gives you the convenience of cloud-based photo backup service, but without the concern of leaking privacy. We are not, and will never collect ANY user privacy data.
 
-You can also set up multiple Lomorage services in your private network, for different family members, which are completely isolated with each other.
+**Lomorage support multiple users**. You can also set up multiple Lomorage services in your private network, for different family members, which are completely isolated with each other.
 
 <!--
 You can also use either [DES]() to encrypt your photos, or use any [encrypted file system]() supported by the operating system.-->
@@ -58,6 +58,10 @@ Since most people will offload the phone storage, so having those backup once is
   - remote backup: you can backup to other Lomorage services setup by other family members or friends, with encryption. This is on the backlog, and plan to support this year.
 
 <!--  - cloud backup: cloud backup on popular vendors is a good complimentary. This is on the backlog, and plan to support this year.-->
+
+## Intelligent Search
+
+Lomorage will use AI to organize your photos, so you can search by date, location, objects, text and similarity. 
 
 ## Share Your Moments
 
