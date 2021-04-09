@@ -5,18 +5,40 @@ weight: 2
 
 # 安装Lomorage安卓手机App
 
-您可以在安卓手机上安卓Lomorage App，目前的Lomorage App是开发预览版，最低支持的安卓系统版本是7.1，正式版会很快发布，欢迎关注Lomorage公众号。
 
+您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-**欢迎提供反馈，我们会不断更新我们的软件， 点击下面的图标下载最新中文版**
+## 最近更新：2021-04-09
+
+- 增加了隐私说明
+- 增加了当用户点击拒绝权限时的提示
+- 修复了发送email 有时没有 App 日志的问题
+
+更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)
+
+## 下载
+
+**欢迎提供反馈，我们会不断更新我们的软件，点击下面的图标下载最新中文版**
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2020-09-05_15-51-26/com.lomoware.lomorage-v2.0.2.-release2020-09-05_15-51-26.apk"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
+<a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
+
+<p align="center">
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-04-09_12-20-25/com.lomoware.lomorage-v22.0.84.-release2021-04-09_12-20-25.apk">直接下载APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
 -->
 </p>
+
+## 快速使用介绍视频
+**[点击去B站观看](https://www.bilibili.com/video/BV1jX4y1G7mF?share_source=copy_web)**
+<!--
+<iframe src="//player.bilibili.com/player.html?aid=714782919&bvid=BV1jX4y1G7mF&cid=317051589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+-->
+
+**[点击去Youtube观看](https://youtu.be/bp8dXbq1_L8)**
+
 
 Lomorage 是一款个人私有照片和视频备份工具，它方便的把您的照片和视频备份到Windows PC机或者Apple MAC机，也可以备份到Lomorage 定制的树莓派上。
 您需要在Windows 或者 Mac 或者 树莓派上安装 Lomorage 服务程序。 
