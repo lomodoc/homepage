@@ -32,12 +32,14 @@ weight: 2
 </p>
 
 ## 快速使用介绍视频
+
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=714782919&bvid=BV1jX4y1G7mF&cid=317051589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 **[点击去B站观看](https://www.bilibili.com/video/BV1jX4y1G7mF?share_source=copy_web)**
-<!--
-<iframe src="//player.bilibili.com/player.html?aid=714782919&bvid=BV1jX4y1G7mF&cid=317051589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
--->
 
 **[点击去Youtube观看](https://youtu.be/bp8dXbq1_L8)**
+<!-- 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bp8dXbq1_L8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
 Lomorage 是一款个人私有照片和视频备份工具，它方便的把您的照片和视频备份到Windows PC机或者Apple MAC机，也可以备份到Lomorage 定制的树莓派上。
