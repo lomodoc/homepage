@@ -125,8 +125,8 @@ update_page_raspbian() {
 update_page_armbian() {
     if [ ! -z "$OS_IMAGE_URL" ]; then
         echo -e "\n=====> updated Armbian image on installation page"
-        $SED -i $SED_INPLACE_OPTION -E "s#https://github.com/lomorage/build/releases/download/[[:digit:]]{4}_[[:digit:]]{2}_[[:digit:]]{2}\.[[:digit:]]{2}_[[:digit:]]{2}_[[:digit:]]{2}\.0\.[a-zA-Z0-9]{7}\/Armbian_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}\-trunk_Orangepizero_buster_current_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}_minimal\.img\.xz#$OS_IMAGE_URL#g" $INSTALLATION_ARMBIAN_EN_PATH
-        $SED -i $SED_INPLACE_OPTION -E "s#https://github.com/lomorage/build/releases/download/[[:digit:]]{4}_[[:digit:]]{2}_[[:digit:]]{2}\.[[:digit:]]{2}_[[:digit:]]{2}_[[:digit:]]{2}\.0\.[a-zA-Z0-9]{7}\/Armbian_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}\-trunk_Orangepizero_buster_current_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}_minimal\.img\.xz#$OS_IMAGE_URL#g" $INSTALLATION_ARMBIAN_ZH_PATH
+        $SED -i $SED_INPLACE_OPTION -E "s#https://github.com/lomorage/build/releases/download/[[:digit:]]{4}_[[:digit:]]{2}_[[:digit:]]{2}\.[[:digit:]]{2}_[[:digit:]]{2}_[[:digit:]]{2}\.0\.[a-zA-Z0-9]{9}\/Armbian_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}\-trunk_Orangepizero_buster_current_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}_minimal\.img\.xz#$OS_IMAGE_URL#g" $INSTALLATION_ARMBIAN_EN_PATH
+        $SED -i $SED_INPLACE_OPTION -E "s#https://github.com/lomorage/build/releases/download/[[:digit:]]{4}_[[:digit:]]{2}_[[:digit:]]{2}\.[[:digit:]]{2}_[[:digit:]]{2}_[[:digit:]]{2}\.0\.[a-zA-Z0-9]{9}\/Armbian_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}\-trunk_Orangepizero_buster_current_[[:digit:]]{1,}\.[[:digit:]]{1,}\.[[:digit:]]{1,}_minimal\.img\.xz#$OS_IMAGE_URL#g" $INSTALLATION_ARMBIAN_ZH_PATH
         grep -H "https://github.com/lomorage/build/releases/download/" $INSTALLATION_ARMBIAN_EN_PATH
         grep -H "https://github.com/lomorage/build/releases/download/" $INSTALLATION_ARMBIAN_ZH_PATH
         echo -e "=====> Done!"
