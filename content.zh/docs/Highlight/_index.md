@@ -14,7 +14,7 @@ title: "功能"
 
 Lomorage是运行在您网络的私有照片云服务，为您提供便捷的照片备份和管理服务，而无需担心隐私泄漏。我们没有，并永远不会收集任何用户隐私信息。
 
-您也可以在家中为不同的家庭成员运行多个完全隔离的Lomorage服务。
+**Lomorage支持多用户**。您也可以在家中为不同的家庭成员运行多个完全隔离的Lomorage服务。
 
 ## 跨平台
 
@@ -52,6 +52,10 @@ Lomorage服务可以运行在多种平台，您可以选择备份您的照片到
 
   - 远程备份: 您可以选择加密备份到朋友或亲戚加的闲置硬盘空间。我们计划在今年内支持这个功能。
 <!--  - cloud backup: cloud backup on popular vendors is a good complementary. This is on the backlog, and plan to support this year.-->
+
+## 智能查找
+
+Lomorage会自动识别照片和视频中的信息，对照片视频按时间，地点和场景进行分类，并对文字进行识别。还能识别相似图片。
 
 ## 分享瞬间
 
