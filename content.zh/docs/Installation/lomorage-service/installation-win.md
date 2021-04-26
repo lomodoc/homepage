@@ -14,12 +14,7 @@ weight: 4
 <a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_04_26.11_05_27.0.5610f8b/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
-如果上面链接无法访问，也可以从百度网盘下载（**最近更新：2021/01/20**）:
-
-
-**链接:** [https://pan.baidu.com/s/11_2NG4nZymVCizWb8GPmww](https://pan.baidu.com/s/11_2NG4nZymVCizWb8GPmww)
-
-**提取码：** r6nd
+**如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
 
 <span>2.</span> 双击"lomoagent.msi"开始安装。如果有Windows Defender提示未知应用，请参考如下步骤允许安装程序运行。
 
@@ -52,6 +47,6 @@ weight: 4
 
 <div align="center">
 <p class="screenshoot">
-  <img width="100%" src="/img/installation/windows-lomo-agent-zh.png">
+  <img width="80%" src="/img/installation/windows-lomo-agent-zh.png">
 </p>
 </div>
