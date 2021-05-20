@@ -8,12 +8,20 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
+## Latest update：2021-05-19
 
 **Click below icon to go to Goole Play Store to download.**
 
 <p align="center">
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
+<p align="center">
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-05-19_20-09-23/com.lomoware.lomorage-v23.0.85.-release2021-05-19_20-09-23.apk">Directly download APK</a>
+<!--
+ &nbsp;
+<a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
+-->
+</p>
 
 After launching Lomorage, it will take a few minutes to import all your photos and videos on phone in the first time.
 
@@ -29,6 +37,8 @@ At there, the app will automatically find the Lomorage service if you installed 
   <img width="80%" src="/img/installation/android/cde38df7-c75d-421a-92aa-50d67884b400.jpg">
 </p>
 </div>
+
+
 
 
 <div align="center">

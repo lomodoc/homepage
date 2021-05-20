@@ -8,7 +8,7 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-04-09
+## 最近更新：2021-05-19
 
 - 增加了隐私说明
 - 增加了当用户点击拒绝权限时的提示
@@ -24,7 +24,7 @@ weight: 2
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-04-09_12-20-25/com.lomoware.lomorage-v22.0.84.-release2021-04-09_12-20-25.apk">直接下载APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-05-19_20-09-23/com.lomoware.lomorage-v23.0.85.-release2021-05-19_20-09-23.apk">直接下载APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
