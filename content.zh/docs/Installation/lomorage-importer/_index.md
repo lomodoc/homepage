@@ -45,5 +45,5 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
   
 </div>
 
-有任何问题，请与我们联系：support at lomorgae dot com
+有任何问题，请与我们联系：support at lomorage dot com
 
