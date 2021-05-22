@@ -8,7 +8,7 @@ weight: 5
 <span>1.</span> 点击下面的链接安装Lomorage服务程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentOSX/releases/download/2021_04_25.22_14_15.0.f3890c1/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
+<a href="https://github.com/lomorage/LomoAgentOSX/releases/download/2021_05_17.23_41_03.0.f3890c1/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
 </p>
 
 如果上面链接无法访问，也可以从百度网盘下载:
