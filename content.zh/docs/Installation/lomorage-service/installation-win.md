@@ -5,13 +5,13 @@ weight: 4
 
 # 在Windows上安装Lomorage服务程序
 
-（**最近更新：2021/04/26**）
+（**最近更新：2021/05/22**）
 
 <span>1.</span> 点击下面的链接安装Lomorage服务程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_04_26.11_05_27.0.5610f8b/lomoagent.msi"><b>点击下载 ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_04_26.11_05_27.0.5610f8b/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_05_22.21_58_37.0.a3acdbc/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_05_22.21_58_37.0.a3acdbc/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
