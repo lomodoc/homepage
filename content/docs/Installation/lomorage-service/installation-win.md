@@ -48,3 +48,27 @@ weight: 4
   <img width="100%" src="/img/installation/windows-lomo-agent.png">
 </p>
 </div>
+
+## Open Web Client
+
+<span>6.</span> The Setting Windows will be hide to your taskbar tray area, normally it is on the right of the task bar like below picture:
+
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-lomo-agent-tray.png">
+</p>
+</div>
+
+
+Web client as below picture. 
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-lomo-agent-web.png">
+</p>
+</div>
+
+<span>7.</span> **You can access this web interface via http://ip(the ip shown on the Settings Windows) from other device.**
+
+Enjoy!
