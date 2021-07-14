@@ -6,7 +6,7 @@ title: "导入工具"
 
 
 # 最近更新：07/14/2021 
-- 支持导入目录：直接选择某个目录，程序会遍历该目录下所有的文件 (Windows)
+- 支持导入目录：直接选择某个目录，程序会遍历该目录下所有的文件
   
 # 什么是Lomorage 导入工具
 
@@ -24,7 +24,7 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 可以去Github [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 下载最新的可执行程序。
 
 ## 或者点击下面的链接直接下载
-- MacOS [LomoImporter.app2021-01-31_11-21-58_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-01-31_11-21-58/LomoImporter.app2021-01-31_11-21-58_mac.zip)
+- MacOS [LomoImporter.app2021-07-14_12-10-39_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-07-14_12-10-39/LomoImporter.app2021-07-14_12-10-39_mac.zip)
 
 - Windows [lomoimpt2021-07-14_09-59-49_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-07-14_09-59-49/lomoimpt2021-07-14_09-59-49_win.zip)
 
