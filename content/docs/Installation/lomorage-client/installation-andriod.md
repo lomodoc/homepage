@@ -8,7 +8,7 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest update：2021-06-10
+## Latest update：2021-07-16
 
 **Click below icon to go to Goole Play Store to download.**
 
@@ -86,11 +86,23 @@ Or you can use scan QR code to get Lomorage service address. <p />
 
 <div align="center">
   You can set the remote access like ngrok and redundancy backup in setting page <p />
-  Or you can send the feedback here to the Lomorage team. <p />
-  Enjoy, any questions please let us know via email or site's contact form. <p />
+ 
   <p class = "screenshoot">
   <img width="80%" src="/img/installation/android/7e6e06aa-91c6-4155-a39c-62835f61652c.jpg">
   <img width="80%" src="/img/installation/android/4938d1f3-17d1-4182-af04-d518cab0bc83.jpg">
+
+   Or you can send the feedback here to the Lomorage team. <p />
   <img width="80%" src="/img/installation/android/7389eda7-6699-4d72-857e-c169b47f669b.jpg">
+
+    Enjoy, any questions please let us know via email or site's contact form.
+
+</div>
+
+## Enable/Disable which folder need to backup
+
+<div align="center">
+  Check right top more menu "Local Directory Manager" to enable/disable which folder need to backup. <p />
+  <p class = "screenshoot">
+  <img width="80%" src="/img/installation/android/folder_select_en.png">
 
 </div>

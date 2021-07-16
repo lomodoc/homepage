@@ -8,7 +8,7 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-06-10
+## 最近更新：2021-07-16
 
 - 增加了隐私说明
 - 增加了当用户点击拒绝权限时的提示
@@ -106,5 +106,14 @@ Lomorage 是一款个人私有照片和视频备份工具，它方便的把您�
   <img width="80%" src="/img/installation/android/7e6e06aa-91c6-4155-a39c-62835f61652c.jpg">
   <img width="80%" src="/img/installation/android/4938d1f3-17d1-4182-af04-d518cab0bc83.jpg">
   <img width="80%" src="/img/installation/android/7389eda7-6699-4d72-857e-c169b47f669b.jpg">
+
+</div>
+
+## 选择需要备份的目录
+
+<div align="center">
+  点击右上角菜单，选择“本机文件夹管理”选择你想要备份的目录 <p />
+  <p class = "screenshoot">
+  <img width="100%" src="/img/installation/android/folder_select_zh.png">
 
 </div>
