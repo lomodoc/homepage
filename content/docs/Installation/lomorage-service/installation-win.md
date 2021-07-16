@@ -5,13 +5,13 @@ weight: 4
 
 # Install Lomorage Service on Windows
 
-（**Update：05/22/2021**）
+（**Update：06/15/2021**）
 
 <span>1.</span> Click the **Windows icon link** below to download Lomorage Server For Windows.
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_05_22.21_58_37.0.a3acdbc/lomoagent.msi"><b>Click to download ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_05_22.21_58_37.0.a3acdbc/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_06_15.11_06_27.0.8b7b9bd/lomoagent.msi"><b>Click to download ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_06_15.11_06_27.0.8b7b9bd/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 <span>2.</span> double click "lomoagent.msi" to start installation. If Windows Defender shows "lomoagent.msi" as unknown application, please follow the steps below to allow it to run.
@@ -48,5 +48,29 @@ weight: 4
   <img width="100%" src="/img/installation/windows-lomo-agent.png">
 </p>
 </div>
+
+## Open Web Client
+
+<span>6.</span> The Setting Windows will be hide to your taskbar tray area, normally it is on the right of the task bar like below picture:
+
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-lomo-agent-tray.png">
+</p>
+</div>
+
+
+Web client as below picture. 
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-lomo-agent-web.png">
+</p>
+</div>
+
+<span>7.</span> **You can access this web interface via http://ip(the ip shown on the Settings Windows) from other device.**
+
+Enjoy!
 
 **If you are using HEIC/HEIF format on iPhone, you need to install "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)" and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)".**
