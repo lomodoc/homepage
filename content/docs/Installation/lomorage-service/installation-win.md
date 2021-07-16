@@ -48,3 +48,5 @@ weight: 4
   <img width="100%" src="/img/installation/windows-lomo-agent.png">
 </p>
 </div>
+
+**If you are using HEIC/HEIF format on iPhone, you need to install "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)" and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)".**

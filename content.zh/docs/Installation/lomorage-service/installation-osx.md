@@ -12,8 +12,8 @@ weight: 5
 </p>
 
 如果上面链接无法访问，也可以从百度网盘下载:
-链接: [https://pan.baidu.com/s/1SkCo-zzvgAC_GzugVaZVbw](https://pan.baidu.com/s/1SkCo-zzvgAC_GzugVaZVbw)
-提取码: wj35
+链接: [https://pan.baidu.com/s/1MVIfj65_ftvAHrIlz7qedQ](https://pan.baidu.com/s/1MVIfj65_ftvAHrIlz7qedQ)
+提取码: ji2d
 
 <span>2.</span> 双击"LomoAgent.dmg"开始安装，参考下面步骤完成安装。
 

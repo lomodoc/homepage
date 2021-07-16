@@ -50,3 +50,5 @@ weight: 4
   <img width="80%" src="/img/installation/windows-lomo-agent-zh.png">
 </p>
 </div>
+
+**如果您使用苹果手机拍摄使用的HEVC/HEIF格式，请下载HEVC/HEIF扩展插件，参考https://blog.csdn.net/weixin_43168190/article/details/117698977**
