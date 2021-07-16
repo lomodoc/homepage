@@ -18,6 +18,8 @@ weight: 2
 
 ## 下载
 
+**请 从 Google Play Store 或者本官网下载最新 APK。**
+
 **欢迎提供反馈，我们会不断更新我们的软件，点击下面的图标下载最新中文版**
 
 <p align="center">
