@@ -72,3 +72,5 @@ Web client as below picture.
 <span>7.</span> **You can access this web interface via http://ip(the ip shown on the Settings Windows) from other device.**
 
 Enjoy!
+
+**If you are using HEIC/HEIF format on iPhone, you need to install "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)" and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)".**
