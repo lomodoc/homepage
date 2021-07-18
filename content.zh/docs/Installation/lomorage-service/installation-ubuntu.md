@@ -18,19 +18,19 @@ weight: 3
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://raw.githubusercontent.com/lomoware/lomoware.github.io/master/debian/gpg.key | sudo apt-key add -
+wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 ```
 
 如果您使用Bionic:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 如果您使用focal:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 然后运行:

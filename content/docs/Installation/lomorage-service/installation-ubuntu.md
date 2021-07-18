@@ -18,19 +18,19 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://raw.githubusercontent.com/lomoware/lomoware.github.io/master/debian/gpg.key | sudo apt-key add -
+wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 ```
 
 If you are using Bionic:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 If you are using Focal:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 then run:

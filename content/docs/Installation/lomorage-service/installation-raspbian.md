@@ -94,19 +94,19 @@ If you have the official Raspbian image installed already, APT installation woul
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://raw.githubusercontent.com/lomoware/lomoware.github.io/master/debian/gpg.key | sudo apt-key add -
+wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 ```
 
 If you are using jessie:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 If you are using buster:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 then run:

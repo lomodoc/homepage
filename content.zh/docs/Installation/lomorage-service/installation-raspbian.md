@@ -94,19 +94,19 @@ sudo rfkill unblock 0
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://raw.githubusercontent.com/lomoware/lomoware.github.io/master/debian/gpg.key | sudo apt-key add -
+wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 ```
 
 如果您使用 jessie:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 如果您使用buster:
 
 ```bash
-echo "deb https://lomoware.github.io/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 然后运行:
