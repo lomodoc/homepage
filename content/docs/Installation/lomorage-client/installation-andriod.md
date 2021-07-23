@@ -12,7 +12,7 @@ Currently you can install the app on **Android** phone, the minimal version is *
 
 - Fix remote config testing crash issue
 - Add refresh to fetch new remote asset in backup page
-- Add App new versio reminder with badge red icon in setting page
+- Add App new version reminder with badge red icon in setting page
 - Import Google Fire Base
 - Save local directory setting to external folder in case re-install 
 - Applied new material theme
