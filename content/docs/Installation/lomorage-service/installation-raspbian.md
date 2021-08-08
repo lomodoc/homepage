@@ -37,7 +37,7 @@ The prebuild image includes all Lomorage packages, including:
 Click the link below to download the prebuild OS image.
 
 <p align="center">
-<a href="https://github.com/lomorage/pi-gen/releases/download/2021_01_17.00_33_39.0.f0245af/image_2021-01-17-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
+<a href="https://github.com/lomorage/pi-gen/releases/download/2021_08_07.14_44_50.0.531d560/image_2021-08-07-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
 </p>
 
 After you download the customized OS image, you can install the image to MicroSD card using [balenaEtcher](https://www.balena.io/etcher/), which is available on both Windows and macOS.
@@ -52,7 +52,7 @@ After flushing the image, insert the microSD into Raspberry Pi board, connect US
 
 If you have HDMI connected, after system boot successfully, it will show up a screen that no able to find any assets, and will also show a QRCode for register the lomo frame, **please create user on iOS/Android APP first before scanning the QRCode to bind the lomo frame**. You can upload photos using Lomorage Phone app, and then press "r" to rescan. If you want to quit to terminal to do some configuration, just press "ESC" and then "Ctrl+Alt+F2", after you made any changes and want to start lomo-frame, use command `sudo service supervisor restart`.
 
-*The default login username is "pi" and password is "raspberry"*
+*The default login username is "lomoware" and password is "lomorage"*
 
 We suggest use cable to provide better performance, but if you prefer to use WiFi, you can login Raspberry Pi and use the command `wifi_switch.sh client "wifi-ssid" wifi-password`, replace "wifi-ssid" and "wifi-password" with those of your wifi network. *Make sure you have quotation mark around "wifi-ssid" if you have space or unicode character in it, for example `wifi_switch.sh client "Lomorage's 2.4G" mypassword`.*
 
