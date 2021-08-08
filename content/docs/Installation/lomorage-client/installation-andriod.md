@@ -8,15 +8,10 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest update：：2021-07-22
+## Update history：：2021-08-07
 
-- Fix remote config testing crash issue
-- Add refresh to fetch new remote asset in backup page
-- Add App new version reminder with badge red icon in setting page
-- Import Google Fire Base
-- Save local directory setting to external folder in case re-install 
-- Applied new material theme
-- Add hash value in more info on big photo view
+- Fix can not create log issue on android 11
+- Fix directory filter duplicate issue.
 
 
 **Click below icon to go to Goole Play Store to download.**
@@ -25,7 +20,7 @@ Currently you can install the app on **Android** phone, the minimal version is *
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-07-22_20-48-46/com.lomoware.lomorage-v26.0.853.-release2021-07-22_20-48-46.apk">Directly download APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-07_19-15-08/com.lomoware.lomorage-v27.0.855.-release2021-08-07_19-15-08.apk">Directly download APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
@@ -115,3 +110,14 @@ Or you can use scan QR code to get Lomorage service address. <p />
   <img width="80%" src="/img/installation/android/folder_select_en.png">
 
 </div>
+
+
+## Update history：：2021-07-22
+
+- Fix remote config testing crash issue
+- Add refresh to fetch new remote asset in backup page
+- Add App new version reminder with badge red icon in setting page
+- Import Google Fire Base
+- Save local directory setting to external folder in case re-install 
+- Applied new material theme
+- Add hash value in more info on big photo view
