@@ -5,13 +5,13 @@ weight: 4
 
 # Install Lomorage Service on Windows
 
-（**Update：06/15/2021**）
+（**Update：08/09/2021**）
 
 <span>1.</span> Click the **Windows icon link** below to download Lomorage Server For Windows.
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_06_15.11_06_27.0.8b7b9bd/lomoagent.msi"><b>Click to download ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_06_15.11_06_27.0.8b7b9bd/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_09.20_47_04.0.14e7541/lomoagent.msi"><b>Click to download ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_09.20_47_04.0.14e7541/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 <span>2.</span> double click "lomoagent.msi" to start installation. If Windows Defender shows "lomoagent.msi" as unknown application, please follow the steps below to allow it to run.
