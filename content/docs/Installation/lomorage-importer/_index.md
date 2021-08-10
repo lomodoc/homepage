@@ -4,7 +4,8 @@ bookFlatSection: true
 title: "Import Tool"
 ---
 
-# Latest update: 07/26/2021
+# Latest update: 08/09/2021
+- can config importing thread count
 - Improve&faster the importing speed
 - support lomo live photo zip file
 - fix memory leak
@@ -24,9 +25,9 @@ Currently it support **Windows and MacOS**.
 Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) to download the latest binary.
 
 ## Or directly download here:
-- Download for MacOS [LomoImporter.app2021-07-26_21-38-10_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-07-26_21-38-10/LomoImporter.app2021-07-26_21-38-10_mac.zip)
+- MacOS [LomoImporter.app2021-08-09_17-41-59_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-41-59/LomoImporter.app2021-08-09_17-41-59_mac.zip)
 
-- Download for Windows [lomoimpt2021-07-26_19-57-35_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-07-26_19-57-35/lomoimpt2021-07-26_19-57-35_win.zip)
+- Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 
 
 
