@@ -5,13 +5,13 @@ weight: 4
 
 # 在Windows上安装Lomorage服务程序
 
-（**最近更新：2021/08/09**）
-
+（**最近更新：2021/08/15**）
+- 修复 不能设置目录的问题！！！
 ## <span>1.</span> 点击下面的链接安装Lomorage服务程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_09.20_47_04.0.14e7541/lomoagent.msi"><b>点击下载 ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_09.20_47_04.0.14e7541/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_15.20_25_00.0.14e7541/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_15.20_25_00.0.14e7541/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
