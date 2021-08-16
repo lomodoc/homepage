@@ -16,6 +16,10 @@ weight: 4
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
 
+**或者从[百度网盘下载](https://pan.baidu.com/s/1nHayVJoXRj_nD0qNRuJ97g) 提取码：9f82**
+
+**或者从这里 [点击下载](https://www.edraw.xyz/lomorage/lomoagent_20210816_114618.msi)**
+
 ## <span>2.</span> 双击"lomoagent.msi"开始安装。如果有Windows Defender提示未知应用，请参考如下步骤允许安装程序运行。
 
 <div align="center">
