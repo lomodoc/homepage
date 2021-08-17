@@ -12,12 +12,14 @@ title: "外网访问"
 
 您可以使用[ngrok](https://ngrok.com)，ngrok是免费的隧道服务，需要注册，使用自定义子域名需要付费，但更加稳定，并没有额外的依赖。
 
+另外的方案：如果您自己有域名，可以直接在路由器上打开端口映射并且配置https代理访问Lomorage服务。
+
 {{< hint info >}}
 如果您使用Lomorage的树莓派镜像, 登陆的用户名是"pi"，密码是"raspberry";
 如果您使用Lomorage的Armbian镜像, 登陆的用户名是"lomoware"，密码是"lomorage";
 {{< /hint >}}
 
-## ngrok
+## ngrok (方案1)
 
 ### 1. 注册
 
@@ -62,3 +64,71 @@ Lomorage服务默认运行在8000端口，ngrok的免费账号不能自定义子
 ### 6. 在Lomorage手机应用中配置隧道服务
 
 打开Lomorage手机应用，在配置选项页里找到"外网服务"，设置服务器地址为ngrok输出的url，比如类似"2e30eea5.ngrok.io"，端口号是"443"。
+
+## Nginx https代理 (方案2)
+
+如果您已经有域名，可以使用这种方式。
+
+下面以Linux平台为例子，certbox和nginx都是跨平台软件，其他平台安装配置类似。
+
+## 1. 安装certbot和nginx
+
+```
+$ sudo apt-get install certbot python-certbot-nginx -y
+```
+
+## 2. 生成证书
+
+首先确保域名配置正确，然后在路由器上打开端口映射，将外网TCP80端口和443端口分别映射到安装nginx的设备80端口和443端口上。（下面配置以www.example.com 为例，请替换为自己的域名。）
+
+```
+$ sudo certbot --nginx -d www.example.com
+```
+
+这一步会输出证书目录
+
+```
+$ sudo certbot --nginx -d www.example.com
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for www.example.com
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/www.example.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/www.example.com/privkey.pem
+This certificate expires on 2021-11-14.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+```
+
+## 3. 配置nginx
+
+sudo创建文件“/etc/nginx/conf.d/lomorage.conf”，并填入如下内容（下面配置以www.example.com 为例，请替换为自己的域名。）:
+
+```
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name jeromyfu.lomorage.com;
+
+    ssl on;
+    ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/www.example.com/privkey.pem;
+
+    location / {
+        client_max_body_size 0;
+        proxy_pass http://localhost:8000;
+        proxy_set_header X-Forwarded-For $remote_addr;
+    }
+}
+```
+
+如果Lomorage和nginx运行在不同的设备上，可以将localhost改成Lomorage服务器的ip地址。
+
+配置完成后，重新加载配置并启用nginx服务:
+
+```
+sudo systemctl restart nginx
+sudo systemctl enable nginx
+```
+
+最后可以在电脑或者手机浏览器下访问https://www.example..com/system 验证（请替换为自己的域名）是否能通过https访问lomorage服务。
