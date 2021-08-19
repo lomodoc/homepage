@@ -4,6 +4,8 @@ bookFlatSection: true
 title: "Import Tool"
 ---
 
+# Latest update: 08/19/2021
+- Support large file direct importing.
 # Latest update: 08/09/2021
 - can config importing thread count
 - Improve&faster the importing speed
@@ -23,11 +25,12 @@ Currently it support **Windows and MacOS**.
 # Download
 
 Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) to download the latest binary.
-
+## Latest importer for Windows
+- [Latest Windows Importer](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-18_22-04-08/lomoimpt_x642021-08-18_22-04-08_win.zip)
 ## Or directly download here:
 - MacOS [LomoImporter.app2021-08-09_17-41-59_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-41-59/LomoImporter.app2021-08-09_17-41-59_mac.zip)
 
-- Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
+- Old version for Windows[lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 
 
 

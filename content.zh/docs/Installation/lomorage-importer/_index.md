@@ -4,7 +4,8 @@ bookFlatSection: true
 title: "导入工具"
 ---
 
-# 最近更新: 08/09/2021
+# 最近更新: 08/19/2021
+- 发布64位版本，指针大于4G的文件直接导入
 - 可配置导入线程数
 
   
@@ -23,10 +24,12 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 
 可以去Github [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 下载最新的可执行程序。
 
+## 最新导入工具下载链接
+- [最新导入工具](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-18_22-04-08/lomoimpt_x642021-08-18_22-04-08_win.zip)
 ## 或者点击下面的链接直接下载
 - MacOS [LomoImporter.app2021-08-09_17-41-59_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-41-59/LomoImporter.app2021-08-09_17-41-59_mac.zip)
 
-- Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
+- 旧版Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 
 
 # 快速使用视频
