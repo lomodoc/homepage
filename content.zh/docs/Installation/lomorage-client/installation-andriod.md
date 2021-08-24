@@ -8,10 +8,9 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-08-07
+## 最近更新：2021-08-24
+- 修复：下载和查看原始图片问题
 
-- 修复：目录过滤重复问题
-- 修复：在android11上日志不能创建问题
 
 
 更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)
@@ -26,7 +25,7 @@ weight: 2
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-07_19-15-08/com.lomoware.lomorage-v27.0.855.-release2021-08-07_19-15-08.apk">直接下载APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-24_11-11-34/com.lomoware.lomorage-v28.0.856.-release2021-08-24_11-11-34.apk">直接下载APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>

@@ -20,7 +20,7 @@ Currently you can install the app on **Android** phone, the minimal version is *
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-07_19-15-08/com.lomoware.lomorage-v27.0.855.-release2021-08-07_19-15-08.apk">Directly download APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-24_11-11-34/com.lomoware.lomorage-v28.0.856.-release2021-08-24_11-11-34.apk">Directly download APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
