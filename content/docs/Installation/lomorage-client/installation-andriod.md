@@ -8,10 +8,9 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest Update：2021-08-07
+## Latest Update：2021-08-24
 
-- Fix can not create log issue on android 11
-- Fix directory filter duplicate issue.
+- fix loading original picture issue on android11
 
 
 **Click below icon to go to Goole Play Store to download.**
