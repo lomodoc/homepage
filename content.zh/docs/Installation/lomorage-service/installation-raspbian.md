@@ -143,7 +143,7 @@ sudo apt install lomo-base lomo-vips lomo-backend lomo-web lomo-frame -y
 ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir /media/pi  --max-upload 1 --max-fetch-preview 3
 ```
 
-**请确保您的用户有上面设置的"mount-dir"的读写权限**
+**请确保您的用户有上面设置的"mount-dir"的读写权限, 另外改参数必须是mount的父目录，比如mount到"/media/pi/disk0"下面，就必须指定为"/media/pi"**
 
 ### 4. 运行
 

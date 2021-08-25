@@ -32,7 +32,32 @@ sudo apt install lomo-frame
 
 如果您已经安装了Lomo-frame程序，它会在开机后自动启动。
 
-如果树莓派没有连上网络，您需要先将其连上网络，如果您使用WiFi，先连上HDMI和键盘，然后重启设备，按照屏幕上的提示进入命令行并登陆，接下来可以使用命令`wifi_switch client [wifi-ssid] [wifi-password]`, 用您自己的配置替换"[wifi-ssid]"和"[wifi-password]"。
+如果树莓派没有连上网络，您需要先将其连上网络，如果您使用WiFi，先连上HDMI和键盘，然后重启设备，按照屏幕上的提示进入命令行并登陆，接下来可以使用命令`wifi_switch.sh client [wifi-ssid] [wifi-password]`, 用您自己的配置替换"[wifi-ssid]"和"[wifi-password]"。
+
+{{< hint warning >}}
+您有可能会碰到"Wi-Fi is currently blocked by rfkill"的问题，可以执行下面的命令检查一下WiFi是否被禁用:
+
+```
+pi@raspberrypi:~ $ sudo rfkill list all
+0: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: hci0: Bluetooth
+	Soft blocked: yes
+	Hard blocked: no
+```
+
+您可以使用下面的命令来启用WiFi:
+
+```
+sudo rfkill unblock 0
+```
+
+这里“0”是上面Wireless LAN的序号。
+
+启用之后您可以再尝试`wifi_switch.sh`。
+
+{{< /hint >}}
 
 网络设置完成后，重启，会显示QRCode，您可以到Lomorage iOS APP的设置页面，注册相框，然后您就可以使用手机应用程序来分享照片给数码相框。
 
@@ -145,7 +170,7 @@ sudo sed -i "s/media_type =.*/media_type = all/" /opt/lomorage/var/video_looper.
 
 - 2. 设置WiFi连接
 
-键盘连接到Raspberry Pi zero W并登陆, 如果您是Lomorage的树莓派镜像，可以使用命令`wifi_switch client [wifi-ssid] [wifi-password]`, 用您自己的配置替换"[wifi-ssid]"和"[wifi-password]"。如果使用其他系统，您可以参考网上其他资料来设置WiFi连接。
+键盘连接到Raspberry Pi zero W并登陆, 如果您是Lomorage的树莓派镜像，可以使用命令`wifi_switch.sh client [wifi-ssid] [wifi-password]`, 用您自己的配置替换"[wifi-ssid]"和"[wifi-password]"。如果使用其他系统，您可以参考网上其他资料来设置WiFi连接。
 
 - 3. 检查主树莓派的IP地址
 

@@ -137,13 +137,13 @@ sudo apt install lomo-base lomo-vips lomo-backend lomo-web lomo-frame -y
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
 
-For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", modify `ExecStart` in "/lib/systemd/system/lomod.service", and add parameter "--mount-dir" as below
+For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", modify `ExecStart` in "/lib/systemd/system/lomod.service", and add parameter "--mount-dir" as below, **this parameter should be the directory mount, not the sub-directory**
 
 ```bash
 ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir /media/pi  --max-upload 1 --max-fetch-preview 3
 ```
 
-**Make sure the user has the r/w permission for the "mount-dir" set above**
+**Make sure the user has the r/w permission for the "mount-dir" set above, this parameter should be the parent directory mounted, for example if it's mounted as "/media/pi/disk0", then you should use "/media/pi/".**
 
 ### 4. Run
 

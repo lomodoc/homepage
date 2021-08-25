@@ -36,7 +36,32 @@ Once you have Lomo-frame running, it will show a QRCode on the screen, and you c
 
 If you have Lomo-frame installed, it will launch on boot.
 
-If the Raspberry Pi is not connected to the network, you need to connect it first, if you prefer to use WiFi, connect HDMI and keyboard with Raspberry Pi and reboot, follow the instruction on screen to enter in terminal and login Raspberry Pi, then you can use the command `wifi_switch client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network.
+If the Raspberry Pi is not connected to the network, you need to connect it first, if you prefer to use WiFi, connect HDMI and keyboard with Raspberry Pi and reboot, follow the instruction on screen to enter in terminal and login Raspberry Pi, then you can use the command `wifi_switch.sh client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network.
+
+{{< hint warning >}}
+You probably will have the problem that "Wi-Fi is currently blocked by rfkill". You can confirm this by running:
+
+```
+pi@raspberrypi:~ $ sudo rfkill list all
+0: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: hci0: Bluetooth
+	Soft blocked: yes
+	Hard blocked: no
+```
+
+And you can enable WiFi by running:
+
+```
+sudo rfkill unblock 0
+```
+
+assuming 0 is the index of Wireless LAN.
+
+After this, you can try `wifi_switch.sh` again.
+
+{{< /hint >}}
 
 Once setup network, reboot and it will show a QRCode, you can go to "Settings" Tab in Lomorage iOS APP to register the frame, then you can use either Lomorage iOS APP or Lomorage Android APP to share photos with the digital frame.
 
@@ -149,7 +174,7 @@ You can follow the instructions on the top of the page.
 
 - 2. Setup WiFi connection
 
-Connect keyboard with Raspberry Pi zero W and login, if you installed Lomorage Raspberry Pi OS image, the default user name is "lomoware" and password is "lomorage", you can use the command `wifi_switch client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network; otherwise, you can refer to other docs online to set the WiFi connection.
+Connect keyboard with Raspberry Pi zero W and login, if you installed Lomorage Raspberry Pi OS image, the default user name is "lomoware" and password is "lomorage", you can use the command `wifi_switch.sh client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network; otherwise, you can refer to other docs online to set the WiFi connection.
 
 - 3. Check IP address of primary Raspberry Pi
 
