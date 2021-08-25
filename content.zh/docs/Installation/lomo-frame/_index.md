@@ -1,6 +1,6 @@
 ---
 title: Lomorage相框
-weight: 13
+weight: 12
 ---
 
 # 安装
@@ -153,7 +153,7 @@ sudo sed -i "s/media_type =.*/media_type = all/" /opt/lomorage/var/video_looper.
 
 - 4. 找到主树莓派的加载目录
 
-您可以把主树莓派的"media"目录通过SAMBA协议加载到电脑上，用户名是"pi"，密码是"raspberry"，你可以在"media"目录下找到加载的存储媒体文件的目录名。
+您可以把主树莓派的"media"目录通过SAMBA协议加载到电脑上，用户名是"lomoware"，密码是"lomorage"，你可以在"media"目录下找到加载的存储媒体文件的目录名。
 
 - 5. 远程挂载媒体目录到树莓派zero w
 

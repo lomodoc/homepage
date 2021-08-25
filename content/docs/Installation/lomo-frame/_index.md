@@ -149,7 +149,7 @@ You can follow the instructions on the top of the page.
 
 - 2. Setup WiFi connection
 
-Connect keyboard with Raspberry Pi zero W and login, if you installed Lomorage Raspberry Pi OS image, you can use the command `wifi_switch client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network; otherwise, you can refer to other docs online to set the WiFi connection.
+Connect keyboard with Raspberry Pi zero W and login, if you installed Lomorage Raspberry Pi OS image, the default user name is "lomoware" and password is "lomorage", you can use the command `wifi_switch client [wifi-ssid] [wifi-password]`, replace "[wifi-ssid]" and "[wifi-password]" with those of your wifi network; otherwise, you can refer to other docs online to set the WiFi connection.
 
 - 3. Check IP address of primary Raspberry Pi
 
