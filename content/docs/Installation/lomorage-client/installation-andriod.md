@@ -8,9 +8,9 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest Update：2021-08-24
+## Latest Update：2021-08-26
 
-- fix loading original picture issue on android11
+- fix original picture issue on android11
 
 
 **Click below icon to go to Goole Play Store to download.**
@@ -19,7 +19,7 @@ Currently you can install the app on **Android** phone, the minimal version is *
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-24_11-11-34/com.lomoware.lomorage-v28.0.856.-release2021-08-24_11-11-34.apk">Directly download APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-08-26_14-46-34/com.lomoware.lomorage-v29.0.856.-release2021-08-26_14-46-34.apk">Directly download APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
