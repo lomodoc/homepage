@@ -4,10 +4,8 @@ bookFlatSection: true
 title: "导入工具"
 ---
 
-# 最近更新: 08/19/2021
-- 更新windows版本:发布64位版本，大于4G的文件直接导入
-- 可配置导入线程数
-
+# 最近更新: 08/31/2021
+- 修复 读取heic exif 时间，转换闪退问题
   
 # 什么是Lomorage 导入工具
 
@@ -25,9 +23,9 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 可以去Github [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 下载最新的可执行程序。
 
 ## 最新导入工具下载链接
-- [最新导入工具](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-18_22-04-08/lomoimpt_x642021-08-18_22-04-08_win.zip)
-## 或者点击下面的链接直接下载
-- MacOS [LomoImporter.app2021-08-09_17-41-59_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-41-59/LomoImporter.app2021-08-09_17-41-59_mac.zip)
+- Windows [lomoimpt_x642021-08-31_14-11-38_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-31_14-11-38/lomoimpt_x642021-08-31_14-11-38_win.zip)
+
+- MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-31_14-13-34/LomoImporter.app2021-08-31_14-13-34_mac.zip)
 
 - 旧版Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 
@@ -82,7 +80,10 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 有任何问题，请与我们联系：support at lomorage dot com
 
 
-# 以往更新: 07/26/2021
+# 以往更新: 08/19/2021
+- 更新windows版本:发布64位版本，大于4G的文件直接导入
+- 可配置导入线程数
+## 以往更新: 07/26/2021
 - 提高了导入速度
 - 支持Lomo 动态图片格式
 - 修复内存泄漏
