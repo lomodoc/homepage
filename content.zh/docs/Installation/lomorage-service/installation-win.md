@@ -103,6 +103,11 @@ http://B机器的ip:端口号。
 **解决方法**：请检查 Windows 机器是不是有多块网卡，把不用的虚拟网卡禁止掉，确保手机和Windows 机器连的是同一个网络：一般IPV4 地址是 192 开头。
 然后重新创建账号！
 
+### 9.4 Lomorage服务器的 数据（DB） 文件在哪里：
+在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **高级**--->> Go to Lomod folder.
+ var目录下的 **assets.db** 就是 Lomorage服务器的db文件，这个文件很重要，**不能删除**。
+ 
+
 ## 10. 还有问题，扫码加微信哦
 <div align="center">
 <p class="screenshoot">
