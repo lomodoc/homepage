@@ -107,6 +107,18 @@ http://B机器的ip:端口号。
 在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **高级**--->> Go to Lomod folder.
  var目录下的 **assets.db** 就是 Lomorage服务器的db文件，这个文件很重要，**不能删除**。
  
+默认路径： C:\Users\%username%\AppData\Local\lomoware\var\assets.db
+
+### 9.5 怎么迁移数据？比如 原先保存的照片在 c：\lomorage ,现在想移到 d:\lomorage
+直接在 Lomorage的设置与控制面板里更改主目录,如下图所示, 程序会提醒您目录改变，迁移过程需要点时间：
+（把数据从老目录复制到新目录，并更改数据库文件）
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-faq/move_data.png">
+</p>
+</div>
+
 
 ## 10. 还有问题，扫码加微信哦
 <div align="center">
