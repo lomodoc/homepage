@@ -82,7 +82,28 @@ weight: 4
 http://B机器的ip:端口号。
 比如： B 服务器的IP地址是 192.168.0.40,端口号8000。则输入：http://192.168.0.40:8000
 
-## 9. 有问题，扫码加微信哦！
+
+## 9. 常见问题
+### 9.1 安装之后，启动不了？
+
+请检查一下是不是中文的用户名，如果是，把Lomorage服务器装在一个英文目录名下。【该问题已经修复，还没发布！】
+
+### 9.2 怎么查看服务器版本？
+
+在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **关于** 菜单
+
+### 9.3 服务器启动了，用手机创建账号，显示如下错误，怎么办？
+
+<div align="center">
+<p class="screenshoot">
+  <img width="80%" src="/img/installation/windows-faq/63e33bf7-9316-4166-ac8b-40f4bdbaf2a1.jpg">
+</p>
+</div>
+
+**解决方法**：请检查 Windows 机器是不是有多块网卡，把不用的虚拟网卡禁止掉，确保手机和Windows 机器连的是同一个网络：一般IPV4 地址是 192 开头。
+然后重新创建账号！
+
+## 10. 还有问题，扫码加微信哦
 <div align="center">
 <p class="screenshoot">
   <img width="80%" src="/img/installation/lomorage_wechat_qr.jpg">
