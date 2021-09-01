@@ -88,9 +88,17 @@ http://B机器的ip:端口号。
 
 请检查一下是不是中文的用户名，如果是，把Lomorage服务器装在一个英文目录名下。【该问题已经修复，还没发布！】
 
-### 9.2 怎么查看服务器版本？
+### 9.2 怎么查看服务器版本和系统信息
 
 在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **关于** 菜单
+
+<div align="center">
+<p class="screenshoot">
+  <img width="100%" src="/img/installation/windows-faq/right_menu.png">
+</p>
+</div>
+
+点击 **查看Lomorage服务器系统信息** 会打开浏览器显示Lomorage服务器的系统信息。
 
 ### 9.3 服务器启动了，用手机创建账号，显示如下错误，怎么办？
 
@@ -104,10 +112,14 @@ http://B机器的ip:端口号。
 然后重新创建账号！
 
 ### 9.4 Lomorage服务器的 数据（DB） 文件在哪里：
-在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **高级**--->> Go to Lomod folder.
+在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **其他**--->> 打开Lomod目录.
  var目录下的 **assets.db** 就是 Lomorage服务器的db文件，这个文件很重要，**不能删除**。
  
+ ```
 默认路径： C:\Users\%username%\AppData\Local\lomoware\var\assets.db
+```
+
+
 
 ### 9.5 怎么迁移数据？比如 原先保存的照片在 c：\lomorage ,现在想移到 d:\lomorage
 直接在 Lomorage的设置与控制面板里更改主目录,如下图所示, 程序会提醒您目录改变，迁移过程需要点时间：
