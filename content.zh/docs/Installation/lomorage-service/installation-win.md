@@ -5,20 +5,21 @@ weight: 4
 
 # 在Windows上安装Lomorage服务程序
 
-（**最近更新：2021/08/15**）
+（**最近更新：2021/08/30**）
+- 修复 中文目录问题
+- 修复 不能禁止自动启动问题
+- 改为 64位
+- 更新了 lomo web
+- 完整的菜单翻译
 - 修复 不能设置目录的问题！！！
 ## <span>1.</span> 点击下面的链接安装Lomorage服务程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_15.20_25_00.0.14e7541/lomoagent.msi"><b>点击下载 ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_15.20_25_00.0.14e7541/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_31.21_14_36.0.14e7541/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_08_31.21_14_36.0.14e7541/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
-
-**或者从[百度网盘下载](https://pan.baidu.com/s/1nHayVJoXRj_nD0qNRuJ97g) 提取码：9f82**
-
-**或者从这里 [点击下载](https://www.edraw.xyz/lomorage/lomoagent_20210816_114618.msi)**
 
 ## <span>2.</span> 双击"lomoagent.msi"开始安装。如果有Windows Defender提示未知应用，请参考如下步骤允许安装程序运行。
 
