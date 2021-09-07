@@ -24,13 +24,13 @@ wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 如果您使用Bionic:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 如果您使用focal:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 然后运行:
@@ -47,25 +47,25 @@ sudo apt update
 
 - lomo-web: 可选, Lomorage网页程序
 
-- lomo-base: 可选, 系统工具，包括网络配置，开关控制, 磁盘加载, 蓝牙控制台
+- lomo-base-lite: 可选, 硬盘自动加载和休眠
 
 - lomo-vips: 必须, lomo-backend使用的图像处理库
 
 ```bash
-sudo apt install lomo-base lomo-vips lomo-backend lomo-web -y
+sudo apt install lomo-base-lite lomo-vips lomo-backend lomo-web -y
 ```
 
 ## 3. 更加需要修改mount目录
 
 如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加Lomorage服务程序运行参数来指定加载目录。
 
-如果要修改默认的加载路径，修改文件"/lib/systemd/system/lomod.service"中的`ExecStart`，并添加"--mount-dir"参数:
+比如如果加载的路径是"/media/hdd/disk0"。 要指定加载目录"/media/hdd", 修改"/lib/systemd/system/lomod.service"的`ExecStart`字段，加上  "--mount-dir"参数:
 
 ```bash
-ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir your-mount-dir  --max-upload 1 --max-fetch-preview 3
+ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir /media/hdd  --max-upload 1 --max-fetch-preview 3
 ```
 
-**请确保您的用户有上面设置的"mount-dir"的读写权限**
+**请确保您的用户有上面设置的"mount-dir"的读写权限, 另外改参数必须是mount的父目录，比如mount到"/media/hdd/disk0"下面，就必须指定为"/media/hdd"**
 
 ## 4. 运行
 

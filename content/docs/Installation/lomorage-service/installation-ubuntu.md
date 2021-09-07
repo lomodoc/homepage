@@ -24,13 +24,13 @@ wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
 If you are using Bionic:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/bionic bionic main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 If you are using Focal:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 then run:
@@ -52,20 +52,20 @@ You need at least lomo-vips, lomo-base-lite and lomo-backend installed.
 - lomo-vips: mandatory, lomorage vips clone. (A fast image processing library with low memory needs), used by lomo-backend
 
 ```bash
-sudo apt install lomo-base lomo-vips lomo-backend lomo-web -y
+sudo apt install lomo-base-lite lomo-vips lomo-backend lomo-web -y
 ```
 
 ## 3. Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
 
-To change the default mount directory, modify `ExecStart` in "/lib/systemd/system/lomod.service", and add parameter "--mount-dir" as below
+For example if the mount directory is "/media/hdd/disk0", you need to specify the mount directory to be "/media/hdd", modify `ExecStart` in "/lib/systemd/system/lomod.service", and add parameter "--mount-dir" as below, **this parameter should be the directory mount, not the sub-directory**
 
 ```bash
-ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir your-mount-dir  --max-upload 1 --max-fetch-preview 3
+ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir /media/hdd  --max-upload 1 --max-fetch-preview 3
 ```
 
-**Make sure the user has the r/w permission for the "mount-dir" set above**
+**Make sure the user has the r/w permission for the "mount-dir" set above, this parameter should be the parent directory mounted, for example if it's mounted as "/media/hdd/disk0", then you should use "/media/hdd/".**
 
 ## 4. Run
 
