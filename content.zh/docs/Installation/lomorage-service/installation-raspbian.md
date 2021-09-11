@@ -133,6 +133,12 @@ sudo apt update
 sudo apt install lomo-base lomo-vips lomo-backend lomo-web lomo-frame -y
 ```
 
+确保当前用户sudo不用密码, 如果不行，可以通过下面的命令添加:
+
+```bash
+echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
+```
+
 ### 3. 按需修改加载目录
 
 如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加Lomorage服务程序运行参数来指定加载目录。

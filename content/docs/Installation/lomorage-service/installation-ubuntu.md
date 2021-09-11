@@ -55,6 +55,12 @@ You need at least lomo-vips, lomo-base-lite and lomo-backend installed.
 sudo apt install lomo-base-lite lomo-vips lomo-backend lomo-web -y
 ```
 
+Make sure the user can sudo without password, if not, execute the following command to add it:
+
+```bash
+echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
+```
+
 ## 3. Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
