@@ -116,8 +116,10 @@ http://B机器的ip:端口号。
 </p>
 </div>
 
-**解决方法**：请检查 Windows 机器是不是有多块网卡，把不用的虚拟网卡禁止掉，确保手机和Windows 机器连的是同一个网络：一般IPV4 地址是 192 开头。
+**解决方法**：
+- 请检查 Windows 机器是不是有多块网卡，把不用的虚拟网卡禁止掉，确保手机和Windows 机器连的是同一个网络：一般IPV4 地址是 192 开头。
 然后重新创建账号！
+- 如果上面的方法不行，请尝试 **关闭Windows的防火墙** 试试！ [参考链接:如何关闭windows防火墙](https://support.microsoft.com/zh-cn/windows/%E6%89%93%E5%BC%80%E6%88%96%E5%85%B3%E9%97%AD-microsoft-defender-%E9%98%B2%E7%81%AB%E5%A2%99-ec0844f7-aebd-0583-67fe-601ecf5d774f)
 
 ### 9.4 Lomorage服务器的 数据（DB） 文件在哪里：
 在windows 系统托盘区，找到Lomorage图标，右键菜单，点击 **其他**--->> 打开Lomod目录.
