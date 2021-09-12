@@ -8,9 +8,8 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-08-26
-- 修复: 查看原始图片问题
-
+## 最近更新：2021-09-12
+- 增加创建用户失败时的比较易理解的提示
 
 
 更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)

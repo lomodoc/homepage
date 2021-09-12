@@ -8,9 +8,8 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest Update：2021-08-26
-
-- fix original picture issue on android11
+## Latest Update：2021-09-12
+- add more meaningful msg while create user fail
 
 
 **Click below icon to go to Goole Play Store to download.**
