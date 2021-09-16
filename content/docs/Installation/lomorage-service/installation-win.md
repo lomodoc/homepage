@@ -5,7 +5,7 @@ weight: 4
 
 # Install Lomorage Service on Windows
 
-（**Update：08/30/2021**）
+（**Update：09/15/2021**）
 - update lomoweb
 - update to 64bit
 - Fix set dir regression issue.
