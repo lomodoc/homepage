@@ -8,8 +8,8 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-09-12
-- 增加创建用户失败时的比较易理解的提示
+## 最近更新：2021-09-25
+- 增加断点续传功能
 
 
 更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)
@@ -24,7 +24,7 @@ weight: 2
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-09-12_10-50-00/com.lomoware.lomorage-v31.0.857.-release2021-09-12_10-50-00.apk">直接下载APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-09-25_20-55-49/com.lomoware.lomorage-v32.0.858.-release2021-09-25_20-55-49.apk">直接下载APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
@@ -117,3 +117,6 @@ Lomorage 是一款个人私有照片和视频备份工具，它方便的把您�
   <img width="100%" src="/img/installation/android/folder_select_zh.png">
 
 </div>
+
+## 更新历史：2021-09-12
+- 增加创建用户失败时的比较易理解的提示

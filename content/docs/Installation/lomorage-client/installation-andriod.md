@@ -8,8 +8,8 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest Update：2021-09-12
-- add more meaningful msg while create user fail
+## Latest Update：2021-09-25
+- add breaking-resume uploading
 
 
 **Click below icon to go to Goole Play Store to download.**
@@ -18,7 +18,7 @@ Currently you can install the app on **Android** phone, the minimal version is *
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-09-12_10-50-00/com.lomoware.lomorage-v31.0.857.-release2021-09-12_10-50-00.apk">Directly download APK</a>
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-09-25_20-55-49/com.lomoware.lomorage-v32.0.858.-release2021-09-25_20-55-49.apk">Directly download APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
@@ -109,7 +109,8 @@ Or you can use scan QR code to get Lomorage service address. <p />
 
 </div>
 
-
+## Latest Update：2021-09-25
+- add more meaningful msg while create user fail
 ## Update history：：2021-07-22
 
 - Fix remote config testing crash issue
