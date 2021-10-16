@@ -13,7 +13,7 @@ The first step is to set up the Lomorage service.
 <p align="center">
 <a href="/docs/Installation/lomorage-service/installation-win/" title="Install Lomorage service on Windows" class="badge windows">Windows</a>
 &nbsp;
-<a href="/docs/Installation/lomorage-service/installation-osx/" title="Install Lomorage service on macOS" class="badge osx">macOS</a>
+<a href="/docs/Installation/lomorage-service/installation-osx/" title="Install Lomorage service on MacOS" class="badge osx">MacOS</a>
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-pi/" title="Install Lomorage service on Raspberry Pi" class="badge raspberrypi">Raspbian</a>
 &nbsp;
@@ -22,4 +22,6 @@ The first step is to set up the Lomorage service.
 <a href="/docs/Installation/lomorage-service/installation-armbian/" title="Install Lomorage service on Armbian" class="badge armbian">Armbian&nbsp;</a>
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-ubuntu/" title="Install Lomorage service on Ubuntu" class="badge ubuntu">Ubuntu</a>
+&nbsp;
+<a href="/docs/Installation/lomorage-service/installation-unraid/" title="Install Lomorage service on Unraid" class="badge unraid">Unraid</a>
 </p>
