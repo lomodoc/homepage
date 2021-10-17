@@ -11,13 +11,15 @@ weight: 10
 <p align="center">
 <a href="/zh/docs/Installation/lomorage-service/installation-win/" title="Windows上安装Lomorage服务" class="badge windows">Windows</a>
 &nbsp;
-<a href="/zh/docs/Installation/lomorage-service/installation-osx/" title="macOS上安装Lomorage服务" class="badge osx">macOS</a>
+<a href="/zh/docs/Installation/lomorage-service/installation-osx/" title="MacOS上安装Lomorage服务" class="badge osx">MacOS</a>
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-pi/" title="树莓派上安装Lomorage服务" class="badge raspberrypi">Raspbian</a>
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-docker/" title="Docker上安装Lomorage服务" class="badge docker">Docker</a>
 &nbsp;
-<a href="/zh/docs/Installation/lomorage-service/installation-armbian/" title="Armbian上安装Lomorage服务" class="badge armbian">Armbian&nbsp;</a>
+<a href="/zh/docs/Installation/lomorage-service/installation-armbian/" title="Armbian上安装Lomorage服务" class="badge armbian">Armbian</a>
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-ubuntu/" title="Ubuntu上安装Lomorage服务" class="badge ubuntu">Ubuntu</a>
+&nbsp;
+<a href="/zh/docs/Installation/lomorage-service/installation-unraid/" title="Unraid上安装Lomorage服务" class="badge unraid">Unraid</a>
 </p>
