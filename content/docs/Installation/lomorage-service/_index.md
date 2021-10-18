@@ -24,4 +24,6 @@ The first step is to set up the Lomorage service.
 <a href="/docs/Installation/lomorage-service/installation-ubuntu/" title="Install Lomorage service on Ubuntu" class="badge ubuntu">Ubuntu</a>
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-unraid/" title="Install Lomorage service on Unraid" class="badge unraid">Unraid</a>
+&nbsp;
+<a href="/docs/Installation/lomorage-service/installation-openwrt/" title="Install Lomorage service on OpenWRT" class="badge openwrt">Openwrt</a>
 </p>

@@ -22,4 +22,6 @@ weight: 10
 <a href="/zh/docs/Installation/lomorage-service/installation-ubuntu/" title="Ubuntu上安装Lomorage服务" class="badge ubuntu">Ubuntu</a>
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-unraid/" title="Unraid上安装Lomorage服务" class="badge unraid">Unraid</a>
+&nbsp;
+<a href="/docs/Installation/lomorage-service/installation-openwrt/" title="Install Lomorage service on OpenWRT" class="badge openwrt">Openwrt</a>
 </p>

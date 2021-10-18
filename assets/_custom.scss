@@ -33,6 +33,14 @@
 		background-color: #5e2750;
 		background-image: url(/img/installation/ubuntu.svg);
 	}
+	&.unraid {
+		background-color: #f55600;
+		background-image: url(/img/installation/unraid.svg);
+	}
+	&.openwrt {
+		background-color: #d4c3c3;
+		background-image: url(/img/installation/openwrt.svg);
+	}
 }
 
 .screenshoot {
