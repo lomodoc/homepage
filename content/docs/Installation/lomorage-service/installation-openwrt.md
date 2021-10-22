@@ -136,5 +136,5 @@ root@OpenWrt:~# crontab -e
 and add the following item:
 
 ```
-0 4 * * * opkg update && opkg install lomo-backend lomo-web
+0 4 * * * opkg update --no-check-certificate && opkg install lomo-backend lomo-web --no-check-certificate
 ```
