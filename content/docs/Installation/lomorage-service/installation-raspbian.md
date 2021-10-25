@@ -139,17 +139,33 @@ Make sure the user can sudo without password, if not, execute the following comm
 echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 ```
 
-### 3. Change mount directory and username if needed
+### 3. Configuration parameter customization
+
+User can use environment variable to control configuration parameter as below. Above example is using `/etc/profile` file as default. You can change based on your own setup.
+
+Note after you set environment variable, please make sure it takes effect when you start or restart lomod
+
+#### 3.1 Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
 
-For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", modify `ExecStart` in "/lib/systemd/system/lomod.service", and add parameter "--mount-dir" as below, **this parameter should be the directory mount, not the sub-directory**
+For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/etc/profile`, such as 
 
-```bash
-ExecStart=/opt/lomorage/bin/lomod -b /opt/lomorage/var --mount-dir /media/pi  --max-upload 1 --max-fetch-preview 3
+```
+echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 ```
 
-**Make sure the user has the r/w permission for the "mount-dir" set above, this parameter should be the parent directory mounted, for example if it's mounted as "/media/pi/disk0", then you should use "/media/pi/".**
+**this parameter should be the directory mount, not the sub-directory**
+
+**Make sure the user has the r/w permission for above mount directory, this parameter should be the parent directory mounted, for example if it's mounted as "/media/pi/disk0", then you should use "/media/pi/".**
+
+#### 3.2 HTTP Listen Port
+
+Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/etc/profile`. For example, 
+
+```
+echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+```
 
 ### 4. Run
 
