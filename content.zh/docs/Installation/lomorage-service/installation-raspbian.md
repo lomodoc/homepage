@@ -152,7 +152,7 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 比如如果您使用PCManFM，那么加载的路径会是"/media/pi"。 要指定加载目录"/media/pi", 请添加环境变量`LOMOD_MOUNT_DIR=/media/pi`在`/etc/profile`，比如
 
 ```
-echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
+echo "export LOMOD_MOUNT_DIR=/media/pi" | sudo tee -a /etc/profile
 ```
 
 **请确保您的用户有上面设置的"mount-dir"的读写权限, 另外改参数必须是mount的父目录，比如mount到"/media/pi/disk0"下面，就必须指定为"/media/pi"**
@@ -162,7 +162,7 @@ echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 Lomod缺省监听端口是8000，如果需要自定义，清使用环境变量`LOMOD_PORT_HTTP`，比如
 
 ```
-echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+echo "export LOMOD_PORT_HTTP=8888" | sudo tee -a /etc/profile
 ```
 
 ### 4. 运行
