@@ -152,7 +152,7 @@ You may need to specify the mount directory if the USB drive is not mounted in "
 For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/etc/profile`, such as 
 
 ```
-echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
+echo "export LOMOD_MOUNT_DIR=/media/pi" | sudo tee -a /etc/profile
 ```
 
 **this parameter should be the directory mount, not the sub-directory**
@@ -164,7 +164,7 @@ echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/etc/profile`. For example, 
 
 ```
-echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+echo "export LOMOD_PORT_HTTP=8888" | sudo tee -a /etc/profile
 ```
 
 ### 4. Run
