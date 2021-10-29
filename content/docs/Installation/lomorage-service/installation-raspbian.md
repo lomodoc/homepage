@@ -143,8 +143,6 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 
 User can use environment variable in "/opt/lomorage/etc/environment" to control configuration parameter as below. You can change based on your own setup.
 
-Note after you set environment variable, please make sure it takes effect when you start or restart lomod
-
 #### 3.1 Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
