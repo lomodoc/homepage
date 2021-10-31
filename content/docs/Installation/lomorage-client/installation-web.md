@@ -9,14 +9,7 @@ You can use Lomorage Web client to upload photos/videos from desktop/laptop usin
 
 If you are using Lomorage Service in MacOS, then you can just click "import" menu item in LomoAgent Application, and it will open the web application.
 
-If you are using Lomorage Service in Raspberry Pi, then you can use the following command to install Lomorage Web client on your raspberry Pi:
-
-```bash
-sudo apt update
-sudo apt install lomo-web
-```
-
-Then you can open "[http://raspberrypi-lomorage.local:8001](http://raspberrypi-lomorage.local:8001)" in the browser on your desktop/laptop to use Lomorage web client.
+If you are using Lomorage Service in Raspberry Pi, you can open "[http://raspberrypi-lomorage.local:8000](http://raspberrypi-lomorage.local:8000)" in the browser on your desktop/laptop to use Lomorage web client.
 
 **The login username and password is the Lomorage Username/Password set using Phone APP**
 

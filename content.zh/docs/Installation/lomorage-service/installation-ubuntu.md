@@ -45,14 +45,12 @@ sudo apt update
 
 - lomo-backend: 必须, Lomorage服务程序
 
-- lomo-web: 可选, Lomorage网页程序
-
 - lomo-base-lite: 可选, 硬盘自动加载和休眠
 
 - lomo-vips: 必须, lomo-backend使用的图像处理库
 
 ```bash
-sudo apt install lomo-base-lite lomo-vips lomo-backend lomo-web -y
+sudo apt install lomo-base-lite lomo-vips lomo-backend -y
 ```
 
 确保当前用户sudo不用密码, 如果不行，可以通过下面的命令添加:
@@ -94,9 +92,6 @@ echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
 ```bash
 # 重启lomo-backend
 sudo systemctl restart lomod
-
-# 重启lomo-web
-sudo systemctl restart lomow
 
 # 重启lomo-frame
 sudo service supervisor restart

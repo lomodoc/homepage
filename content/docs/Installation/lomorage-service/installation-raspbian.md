@@ -28,8 +28,6 @@ The prebuild image includes all Lomorage packages, including:
 
 - lomo-backend: Lomorage service backend
 
-- lomo-web: Lomorage web application
-
 - lomo-base: network configure tool, button control, hard drive mount tool (usbmount modification), bluetooth console
 
 - lomo-frame: the digital frame application
@@ -121,8 +119,6 @@ You need at least lomo-vips and lomo-backend installed.
 
 - lomo-backend: mandatory, Lomorage service backend
 
-- lomo-web: optional, Lomorage web application
-
 - lomo-base: optional, network configure tool, button control, hard drive mount tool, bluetooth console
 
 - lomo-vips: mandatory, lomorage vips clone. (A fast image processing library with low memory needs), used by lomo-backend
@@ -130,7 +126,7 @@ You need at least lomo-vips and lomo-backend installed.
 - lomo-frame: optional, the digital frame application
 
 ```bash
-sudo apt install lomo-base lomo-vips lomo-backend lomo-web lomo-frame -y
+sudo apt install lomo-base lomo-vips lomo-backend lomo-frame -y
 ```
 
 Make sure the user can sudo without password, if not, execute the following command to add it:
@@ -172,9 +168,6 @@ Restart Lomorage service:
 ```bash
 # restart lomo-backend
 sudo systemctl restart lomod
-
-# restart lomo-web
-sudo systemctl restart lomow
 
 # restart lomo-frame
 sudo service supervisor restart

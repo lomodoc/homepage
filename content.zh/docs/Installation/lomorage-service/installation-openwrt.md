@@ -105,27 +105,13 @@ root@OpenWrt:/mnt/sda1# /opt/etc/init.d/lomod
 Usage: /opt/etc/init.d/lomod {start|stop|restart}
 ```
 
-您还可以安装Lomorage web客户端"lomo-web":
-
-```
-root@OpenWrt:/mnt/sda1/# opkg install lomo-web --no-check-certificate
-```
-
-"lomo-web"安装完成后会自动启动，默认的端口号是"8001"，你也可以使用下面的命令控制:
-
-```
-root@OpenWrt:/mnt/sda1# /opt/etc/init.d/lomow
-Usage: /opt/etc/init.d/lomow {start|stop|restart}
-```
-
 需要注意的是对于"arm"架构，会有两个版本: "hf" and "nohf", "hf"是hard float的缩写，可以通过`grep "fpu" /proc/cpuinfo`来查看CPU是否支持hard float，如果命令输出显示`fpu     : yes`那就是支持. **如果不支持hard float，您需要安装nohf版本的包:**
 
 ```
 root@OpenWrt:/mnt/sda1/# opkg install lomo-backend_nohf --no-check-certificate
-root@OpenWrt:/mnt/sda1/# opkg install lomo-web_nohf --no-check-certificate
 ```
 
-接下来您可以使用cron job来每天4:00 am自动更新lomo-backend和lomo-web:
+接下来您可以使用cron job来每天4:00 am自动更新lomo-backend:
 
 ```
 root@OpenWrt:~# crontab -e
@@ -134,5 +120,5 @@ root@OpenWrt:~# crontab -e
 添加下面的内容:
 
 ```
-0 4 * * * opkg update --no-check-certificate && opkg install lomo-backend lomo-web --no-check-certificate
+0 4 * * * opkg update --no-check-certificate && opkg install lomo-backend --no-check-certificate
 ```

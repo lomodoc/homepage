@@ -26,8 +26,6 @@ weight: 1
 
 - lomo-backend: Lomorage服务程序
 
-- lomo-web: Lomorage网页程序
-
 - lomo-base: 系统工具，包括网络配置，开关控制, 磁盘加载, 蓝牙控制台
 
 - lomo-frame: 数码相框程序
@@ -121,8 +119,6 @@ sudo apt update
 
 - lomo-backend: 必须, Lomorage服务程序
 
-- lomo-web: 可选, Lomorage网页程序
-
 - lomo-base: 可选, 系统工具，包括网络配置，开关控制, 磁盘加载, 蓝牙控制台
 
 - lomo-vips: 必须, lomo-backend使用的图像处理库
@@ -130,7 +126,7 @@ sudo apt update
 - lomo-frame: 可选, 数码相框程序
 
 ```bash
-sudo apt install lomo-base lomo-vips lomo-backend lomo-web lomo-frame -y
+sudo apt install lomo-base lomo-vips lomo-backend lomo-frame -y
 ```
 
 确保当前用户sudo不用密码, 如果不行，可以通过下面的命令添加:
@@ -170,9 +166,6 @@ echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```bash
 # 重启lomo-backend
 sudo systemctl restart lomod
-
-# 重启lomo-web
-sudo systemctl restart lomow
 
 # 重启lomo-frame
 sudo service supervisor restart

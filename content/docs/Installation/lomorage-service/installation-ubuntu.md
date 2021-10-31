@@ -45,14 +45,12 @@ You need at least lomo-vips, lomo-base-lite and lomo-backend installed.
 
 - lomo-backend: mandatory, Lomorage service backend
 
-- lomo-web: optional, Lomorage web application
-
 - lomo-base-lite: optional, hard drive mount tool, rsync, jq etc
 
 - lomo-vips: mandatory, lomorage vips clone. (A fast image processing library with low memory needs), used by lomo-backend
 
 ```bash
-sudo apt install lomo-base-lite lomo-vips lomo-backend lomo-web -y
+sudo apt install lomo-base-lite lomo-vips lomo-backend -y
 ```
 
 Make sure the user can sudo without password, if not, execute the following command to add it:
@@ -96,9 +94,6 @@ Restart Lomorage service:
 ```bash
 # restart lomo-backend
 sudo systemctl restart lomod
-
-# restart lomo-web
-sudo systemctl restart lomow
 
 # restart lomo-frame
 sudo service supervisor restart
