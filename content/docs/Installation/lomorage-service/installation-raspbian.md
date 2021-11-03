@@ -35,7 +35,7 @@ The prebuild image includes all Lomorage packages, including:
 Click the link below to download the prebuild OS image.
 
 <p align="center">
-<a href="https://github.com/lomorage/pi-gen/releases/download/2021_08_07.14_44_50.0.531d560/image_2021-08-07-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
+<a href="https://github.com/lomorage/pi-gen/releases/download/2021_11_02.21_10_56.0.5217837/image_2021-11-02-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
 </p>
 
 After you download the customized OS image, you can install the image to MicroSD card using [balenaEtcher](https://www.balena.io/etcher/), which is available on both Windows and macOS.
