@@ -18,8 +18,8 @@ weight: 4
 ## <span>1.</span> 点击下面的链接安装Lomorage服务程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_09_15.22_06_05.0.696faf6/lomoagent.msi"><b>点击下载 ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_09_15.22_06_05.0.696faf6/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_11_07.09_55_01.0.099806b/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_11_07.09_55_01.0.099806b/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**

@@ -14,8 +14,8 @@ weight: 4
 Click the **Windows icon link** below to download Lomorage Server For Windows.
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_09_15.22_06_05.0.696faf6/lomoagent.msi"><b>Click to download ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_09_15.22_06_05.0.696faf6/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_11_07.09_55_01.0.099806b/lomoagent.msi"><b>Click to download ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/2021_11_07.09_55_01.0.099806b/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 ### 2. Double click "lomoagent.msi" to start installation.
