@@ -21,9 +21,9 @@ Currently it support **Windows and MacOS**.
 
 Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) to download the latest binary.
 #### Latest importer for Windows
-- [Latest Windows Importer](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-31_14-11-38/lomoimpt_x642021-08-31_14-11-38_win.zip)
+- [Latest Windows Importer](https://lomosw.lomorage.com/windows/LomoImporter.zip)
 #### Or directly download here:
-- MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-31_14-13-34/LomoImporter.app2021-08-31_14-13-34_mac.zip)
+- MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://lomosw.lomorage.com/mac/LomoImporter.zip)
 
 - Old version for Windows[lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 

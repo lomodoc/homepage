@@ -24,7 +24,7 @@ weight: 2
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
 
 <p align="center">
-<a href="https://github.com/lomorage/lomo-android-apk-release/releases/download/2021-09-25_20-55-49/com.lomoware.lomorage-v32.0.858.-release2021-09-25_20-55-49.apk">直接下载APK</a>
+<a href="https://lomosw.lomorage.com/android/lomorage.apk">直接下载APK</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
