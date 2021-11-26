@@ -61,18 +61,16 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 
 ### 3. 按需修改运行参数
 
-用户可以使用环境变量来修改某些运行参数。下面的例子使用`/etc/profile`作为系统缺省加载环境变量的文件，用户可以根据自己实际情况加以调整。
-
-请确保设置环境变量之后，启动lomod之前，这些环境变量已经在env里面定义了
+用户可以在"/opt/lomorage/etc/environment"设置环境变量来修改某些运行参数。用户可以根据自己实际情况加以调整。
 
 #### 3.1 修改磁盘mount目录
 
 如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加Lomorage服务程序运行参数来指定加载目录。
 
-比如如果您使用PCManFM，那么加载的路径会是"/media/pi"。 要指定加载目录"/media/pi", 请添加环境变量`LOMOD_MOUNT_DIR=/media/pi`在`/etc/profile`，比如
+比如如果您使用PCManFM，那么加载的路径会是"/media/pi"。 要指定加载目录"/media/pi", 请添加环境变量`LOMOD_MOUNT_DIR=/media/pi`在`/opt/lomorage/etc/environment`，比如
 
 ```
-echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
+echo "LOMOD_MOUNT_DIR=/media/pi" | tee -a /opt/lomorage/etc/environment
 ```
 
 **请确保您的用户有上面设置的"mount-dir"的读写权限, 另外改参数必须是mount的父目录，比如mount到"/media/pi/disk0"下面，就必须指定为"/media/pi"**
@@ -82,7 +80,7 @@ echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 Lomod缺省监听端口是8000，如果需要自定义，清使用环境变量`LOMOD_PORT_HTTP`，比如
 
 ```
-echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```
 
 ## 4. 运行

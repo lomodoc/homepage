@@ -65,14 +65,18 @@ User can use environment variable to control configuration parameter as below. A
 
 Note after you set environment variable, please make sure it takes effect when you start or restart lomod
 
+### 3. Configuration parameter customization
+
+User can use environment variable in "/opt/lomorage/etc/environment" to control configuration parameter as below. You can change based on your own setup.
+
 #### 3.1 Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
 
-For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/etc/profile`, such as 
+For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/opt/lomorage/etc/environment`, such as 
 
 ```
-echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
+echo "LOMOD_MOUNT_DIR=/media/pi" | tee -a /opt/lomorage/etc/environment
 ```
 
 **this parameter should be the directory mount, not the sub-directory**
@@ -81,12 +85,11 @@ echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 
 #### 3.2 HTTP Listen Port
 
-Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/etc/profile`. For example, 
+Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/opt/lomorage/etc/environment`. For example, 
 
 ```
-echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```
-
 ## 4. Run
 
 Restart Lomorage service:
