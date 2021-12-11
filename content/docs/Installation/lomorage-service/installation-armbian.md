@@ -80,3 +80,6 @@ sudo ./compile.sh
 ```
 
 After build successfully, the image will be generated in `output/images`.
+
+### 3. Configuration parameter customization
+Refer the same section at raspberry installation
