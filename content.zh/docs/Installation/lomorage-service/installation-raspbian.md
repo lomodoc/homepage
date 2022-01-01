@@ -90,21 +90,21 @@ sudo rfkill unblock 0
 ### 1. 添加lomoware源
 
 ```bash
-sudo apt install -y ca-certificates python-certifi python3-certifi
+sudo apt install -y ca-certificates python3-certifi
 sudo update-ca-certificates --fresh
 wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
-```
-
-如果您使用 jessie:
-
-```bash
-echo "deb https://lomoware.lomorage.com/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 如果您使用buster:
 
 ```bash
 echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+如果您使用bullseye:
+
+```bash
+echo "deb https://lomoware.lomorage.com/debian/bullseye bullseye main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 然后运行:
