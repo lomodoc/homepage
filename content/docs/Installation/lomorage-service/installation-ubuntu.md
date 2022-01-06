@@ -18,7 +18,7 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
+curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
 ```
 
 If you are using Bionic:

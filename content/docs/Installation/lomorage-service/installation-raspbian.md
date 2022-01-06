@@ -92,7 +92,7 @@ If you have the official Raspbian image installed already, APT installation woul
 ```bash
 sudo apt install -y ca-certificates python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
+curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
 ```
 
 If you are using buster:
