@@ -30,7 +30,7 @@ You have several options:
 
 2. Run Lomorage service on one Raspberry Pi, and run Lomo-frame on other Raspberry Pis. For example, you can run Lomo-frame on the cheap Raspberry Pi zero, and run Lomorage service on more powerful Raspberry Pi 4.
 
-Once you have Lomo-frame running, it will show a QRCode on the screen, and you can use iOS APP to register the frame in settings, once success, you can share photos with the digital frame just like share with other contacts in Lomorage APP. **Currently, only iOS APP support register/unregister Lomorage digital frame, once registered, you can share to the digital frame on Android APP as well**
+Once you have Lomo-frame running, it will show a QRCode on the screen, and you can use iOS or Android APP to register the frame in settings, once success, you can share photos with the digital frame just like share with other contacts in Lomorage APP.
 
 ### Quickstart
 
