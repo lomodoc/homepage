@@ -15,7 +15,7 @@ The first step is to set up the Lomorage service.
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-osx/" title="Install Lomorage service on MacOS" class="badge osx">MacOS</a>
 &nbsp;
-<a href="/docs/Installation/lomorage-service/installation-pi/" title="Install Lomorage service on Raspberry Pi" class="badge raspberrypi">Raspbian</a>
+<a href="/docs/Installation/lomorage-service/installation-raspbian/" title="Install Lomorage service on Raspberry Pi" class="badge raspberrypi">Raspbian</a>
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-docker/" title="Install Lomorage service using Docker" class="badge docker">Docker</a>
 &nbsp;

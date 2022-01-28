@@ -13,7 +13,7 @@ weight: 10
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-osx/" title="MacOS上安装Lomorage服务" class="badge osx">MacOS</a>
 &nbsp;
-<a href="/zh/docs/Installation/lomorage-service/installation-pi/" title="树莓派上安装Lomorage服务" class="badge raspberrypi">Raspbian</a>
+<a href="/zh/docs/Installation/lomorage-service/installation-raspbian/" title="树莓派上安装Lomorage服务" class="badge raspberrypi">Raspbian</a>
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-docker/" title="Docker上安装Lomorage服务" class="badge docker">Docker</a>
 &nbsp;

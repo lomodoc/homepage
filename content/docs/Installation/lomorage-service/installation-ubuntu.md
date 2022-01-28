@@ -18,7 +18,7 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 ```bash
 sudo apt install -y ca-certificates python-certifi python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
+curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
 ```
 
 If you are using Bionic:
@@ -65,14 +65,18 @@ User can use environment variable to control configuration parameter as below. A
 
 Note after you set environment variable, please make sure it takes effect when you start or restart lomod
 
+### 3. Configuration parameter customization
+
+User can use environment variable in "/opt/lomorage/etc/environment" to control configuration parameter as below. You can change based on your own setup.
+
 #### 3.1 Change mount directory
 
 You may need to specify the mount directory if the USB drive is not mounted in "/media" directory. 
 
-For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/etc/profile`, such as 
+For example if you are using PCManFM, then the mount directory will be "/media/pi". To specify the mount directory to be "/media/pi", add environment variable `LOMOD_MOUNT_DIR=/media/pi` in `/opt/lomorage/etc/environment`, such as 
 
 ```
-echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
+echo "LOMOD_MOUNT_DIR=/media/pi" | tee -a /opt/lomorage/etc/environment
 ```
 
 **this parameter should be the directory mount, not the sub-directory**
@@ -81,11 +85,13 @@ echo "export LOMOD_MOUNT_DIR=/media/pi" >> /etc/profile
 
 #### 3.2 HTTP Listen Port
 
-Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/etc/profile`. For example, 
+Lomod listens on port 8000 by default. If it is conflict and you want to specify own listen port, you can add environment variable `LOMOD_PORT_HTTP` in `/opt/lomorage/etc/environment`. For example, 
 
 ```
-echo "export LOMOD_PORT_HTTP=8888" >> /etc/profile
+echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```
+
+Another option is `cp /lib/systemd/system/lomod.service /etc/systemd/system/lomod.service` and then edit "/etc/systemd/system/lomod.service" and change "ExecStart" directly to specify the parameters used(run `/opt/lomorage/bin/lomod -h` to check the parameters), and run `sudo systemctl daemon-reload`, then it will use "/etc/systemd/system/lomod.service" instead. "/lib/systemd/system/lomod.service" is expected to be overwritten when upgrade.
 
 ## 4. Run
 

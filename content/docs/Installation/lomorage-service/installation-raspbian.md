@@ -35,7 +35,7 @@ The prebuild image includes all Lomorage packages, including:
 Click the link below to download the prebuild OS image.
 
 <p align="center">
-<a href="https://github.com/lomorage/pi-gen/releases/download/2021_08_07.14_44_50.0.531d560/image_2021-08-07-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
+<a href="https://github.com/lomorage/pi-gen/releases/download/2021_11_05.23_32_53.0.4a997ab/image_2021-11-05-lomorage-lite.zip" title="Install Lomorage for Raspberry Pi" class="badge raspberrypi">Raspberry Pi</a>
 </p>
 
 After you download the customized OS image, you can install the image to MicroSD card using [balenaEtcher](https://www.balena.io/etcher/), which is available on both Windows and macOS.
@@ -90,21 +90,21 @@ If you have the official Raspbian image installed already, APT installation woul
 ### 1. Add lomoware source
 
 ```bash
-sudo apt install -y ca-certificates python-certifi python3-certifi
+sudo apt install -y ca-certificates python3-certifi
 sudo update-ca-certificates --fresh
-wget -qO - https://lomoware.lomorage.com/debian/gpg.key | sudo apt-key add -
-```
-
-If you are using jessie:
-
-```bash
-echo "deb https://lomoware.lomorage.com/debian/jessie jessie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
 ```
 
 If you are using buster:
 
 ```bash
 echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+If you are using bullseye:
+
+```bash
+echo "deb https://lomoware.lomorage.com/debian/bullseye bullseye main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 then run:
@@ -160,6 +160,8 @@ Lomod listens on port 8000 by default. If it is conflict and you want to specify
 ```
 echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```
+
+Another option is `cp /lib/systemd/system/lomod.service /etc/systemd/system/lomod.service` and then edit "/etc/systemd/system/lomod.service" and change "ExecStart" directly to specify the parameters used(run `/opt/lomorage/bin/lomod -h` to check the parameters), and run `sudo systemctl daemon-reload`, then it will use "/etc/systemd/system/lomod.service" instead. "/lib/systemd/system/lomod.service" is expected to be overwritten when upgrade.
 
 ### 4. Run
 
