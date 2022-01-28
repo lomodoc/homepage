@@ -37,6 +37,9 @@ Native application cross Windows /MAC OS to allow user batch import assets
 ## Lomoframe
 Turn your any screens into photo frame with Raspberry Pi or Armbian Single Board Computer. After installation, user can share photos / videos to this screen
 
+## Lomoframe for android tablet
+Trun your android tablet int photo frame just install the lomo-android-frame app.
+
 ## Thirdparty integration
 ### Chromecast
 Lomo backend will auto discover chromecast devices, add into the system as family users, then user can share photos / videos to them from mobile client
