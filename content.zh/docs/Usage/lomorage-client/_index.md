@@ -1,15 +1,15 @@
 ---
-title: Lomorage Command Line Client
+title: 命令行工具
 weight: 11
 ---
 
-# Lomorage Command Line Client
+# 命令行工具
 
-Lomorage command line client is a tool to allow user to control backend directly. Its name is `lomoc` and installed under /opt/lomorage/bin. It provides some options to configure the backend.
+命令行工具可以帮助高级用户做更多的控制使用，缺省安装目录是`/opt/lomorage/bin/lomoc`
 
-## Reset user's backup home directory and backup directory
+## 重置用户的主目录和备份目录
 
-After one user is created through mobile application, people can use `lomoc` command line option to reset home directory and backup directory. Firstly, people need copy specific user's or all users' asset directories to the new directory. For example, if new media directory is `/media/newdisk`, and there are 2 users `alice` and `bob`, the new tree would be like
+当新用户通过手机创建成功以后，如果需要更改主目录或者备份目录，用户可以通过`lomoc import`的方式重置这些目录。重置前，请先把该用户已有的主目录和备份目录里面的所有内容拷贝到新的目录下。举例来说，如果新目录是`/media/newdisk`，有两个用户`alice`和`bob`需要重置，新目录的树结构应该是如下图所示
 ```
 /media/newdisk/
 |-- alice
@@ -52,9 +52,9 @@ After one user is created through mobile application, people can use `lomoc` com
         |               `-- 20131123_9.heic
 ```
 
-Note: 
- - If `[user name]` is supplied, it only updates the given user's home directory or backup directory; otherwise, it will replace all users' home directory or backup directory to the new given media directory.
- - By default, the client will read data from /opt/lomorage/var/assets.db. If you installed the lomod to different directory, you can use `--db` option to supply new DB file location
+注意: 
+ - 如果输入命令时指定用户名，则只会改变指定用户的主目录或者备份目录；如果没有指定用户，就会更新所有用户的主目录或者备份目录
+ - 缺省情况下，用户数据库位于`/opt/lomorage/var/assets.db`。如果安装过程中有更改，请使用`--db`选项来指定实际数据库位置
 ```
 $ /opt/lomorage/bin/lomoc reset home-dir -h
 NAME:
@@ -78,7 +78,7 @@ OPTIONS:
 
 ```
 
-## Import from one existing folders
+## 从已有目录中导入媒体文件
 Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
 ```
 $ /opt/lomorage/bin/lomoc import -h
