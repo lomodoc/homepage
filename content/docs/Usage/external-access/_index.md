@@ -1,6 +1,5 @@
 ---
 weight: 13
-bookFlatSection: true
 title: "External Access"
 ---
 
