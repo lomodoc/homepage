@@ -79,7 +79,7 @@ OPTIONS:
 ```
 
 ## 从已有目录中导入媒体文件
-Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
+如果用户有一些媒体文件存储在已有的USB硬盘或者本地磁盘，或者远程mount的磁盘，并且希望可以直接导入到本系统里面，除了使用importer tool，也可以使用lomoc来完成，这样可以避免额外的网络流量。缺省情况下，lomoc会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，后端服务不会做任何操作。所有的导入日志存储在`/opt/lomorage/var/log/import_[import directory].log`里面。
 ```
 $ /opt/lomorage/bin/lomoc import -h
 NAME:
@@ -93,11 +93,11 @@ OPTIONS:
    --no-move, -n           not moving original photos/videos, and only insert record in db
 ```
 
-Note:
- - `--port` is listen port of `lomod` backend service. It is 8000 by default.
- - `--no-move` is to hint backend service not moving assets, and only insert record in DB. By default it is false, and import will **MOVE** all assets and consolidate them into one location
+需要注意事项:
+ - 缺省情况下，lomod在端口8000监听，如果用户改变了监听端口，需要设置`--port`来指定新的监听端口`。
+ - 缺省情况下，导入会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，后端服务不会做任何操作。
 
-Example:
+导入日志范例:
 ```
 $ /opt/lomorage/bin/lomoc import alice password /media/STEC_838C-1111/test/video
 -m
