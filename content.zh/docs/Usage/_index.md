@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 3
 bookFlatSection: true
 title: "使用说明"
 ---
