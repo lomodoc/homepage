@@ -78,15 +78,23 @@ Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 
 </div>
 
 ## Import by command line
-Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
+Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
 ```
 $ /opt/lomorage/bin/lomoc import -h
 NAME:
    lomoc import - Import all photos from given directory into lomo backend with given username and password
 
 USAGE:
-   lomoc import [username] [password] [directory]
+   lomoc import [command options] [username] [password] [directory]
+
+OPTIONS:
+   --port value, -p value  (default: 8000)
+   --no-move, -n           not moving original photos/videos, and only insert record in db
 ```
+
+Note:
+ - `--port` is listen port of `lomod` backend service. It is 8000 by default.
+ - `--no-move` is to hint backend service not moving assets, and only insert record in DB. By default it is false, and import will **MOVE** all assets and consolidate them into one location
 
 Example:
 ```
