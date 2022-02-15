@@ -5,19 +5,14 @@ title: "External Access"
 
 # External Access Configuration
 
-Currently, external access need some manual setup and some technical background, we will make the process more user-friendly later.
+Currently, external access need some manual setup and some technical background, we will make the process more user-friendly later. There are mainly 2 options:
+1. Use the 3rd party tunnel service
+2. Open port mapping on your router
 
+## Use the 3rd party tunnel service (option 1)
 There are a few tunnel services available for free use, most tunnel services require a client application running on your device, and set up a connection to the service running by the service provider, and it will give a subdomain name for you to use, if you access the URL with that subdomain, the tunnel service will forward the traffic/request to the client application.
 
-You can use [ngrok](https://ngrok.com), which is a free tunnel services. ngrok need register before use, and need pay to customize subdomain.
-
-Another option is to open port mapping on your home router and use nginx as reverse https proxy if you have your own domain name.
-
-{{< hint info >}}
-If you are using Lomorage image, the login username is "lomoware" and password is "lomorage";
-{{< /hint >}}
-
-## ngrok (option 1)
+[ngrok](https://ngrok.com) is a free and popular tunnel services, requires registration before use, and need pay for customize subdomain. You can also use other tunnel services as well.
 
 ### 1. Register
 
@@ -67,17 +62,45 @@ Open Lomorage APP on the phone, and in the settings tab, fill the tunnel service
 
 ## Nginx https proxy (option 2)
 
-You can use this method if you have your own domain name.
+Another option is to open port mapping on your home router and use nginx as reverse https proxy if you have your own domain name. Depends on your familiarity on Nginx, you can either use popular Nginx Proxy Manager tool, or customized nginx configuration by yourselves. Following sections presents both options for you to choose.
 
+{{< hint info >}}
+If you are using Lomorage image, the login username is "lomoware" and password is "lomorage";
+{{< /hint >}}
+
+### Nginx Proxy Manager
+
+Nginx Proxy Manager is a populer self-host tool to easily forward your websites running at home to the public internet. Please refer [user guide](https://nginxproxymanager.com) for installation.
+
+1. Click `Add Proxy Host`, then set your own domain name and forward ip as below screen. Schema is `http`, and forward port is the listen port configured for lomorage container, 8000 is default listen por
+t.
+
+<p align="center">
+  <img width="50%" src="/img/installation/npm1.png">
+</p>
+
+2. Enable `SSL` configuration and set certificate domain name as your own domain name
+
+<p align="center">
+  <img width="50%" src="/img/installation/npm2.png">
+</p>
+
+3. Click `Save`, and below host should be added into the host list
+
+<p align="center">
+  <img width="50%" src="/img/installation/npm3.png">
+</p>
+
+### Customize Nginx Configuration
 The following part will use setup in Linux as an example, other platforms are similar since all the software used below are cross platform.
 
-### 1. Install certbot and Nginx
+#### 1. Install certbot and Nginx
 
 ```
 $ sudo apt-get install certbot python-certbot-nginx -y
 ```
 
-### 2. generate certificate
+#### 2. generate certificate
 
 **First, make sure you have your domain name configured and opened TCP port mapping 80 and 443 on your home router, and forward those traffic to the device running Nginx on the same port.**
 
@@ -102,7 +125,7 @@ These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
 ```
 
-### 3. config Nginx
+#### 3. config Nginx
 
 create “/etc/nginx/conf.d/lomorage.conf” (need sudo), and fill with content below (change "www.example.com" with your own domain name):
 
