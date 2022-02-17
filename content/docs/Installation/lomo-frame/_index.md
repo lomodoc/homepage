@@ -15,7 +15,7 @@ Lomo-frame only supports on Raspberry Pi, Windows/Mac or the docker version is n
 
 If you install the latest Lomorage Raspberry Pi OS image, you should already have the Lomo-frame application installed in that image.
 
-If you don't use Lomorage Raspberry Pi OS image, you can run the following command to install it:
+If you don't use Lomorage Raspberry Pi OS image, follow the instruction [here](https://docs.lomorage.com/docs/Installation/lomorage-service/installation-raspbian/#1-add-lomoware-source) to add lomoware source, then you can run the following command to install it:
 
 ```bash
 sudo apt update

@@ -11,7 +11,7 @@ Lomo-frame应用只支持Raspberry Pi平台, Windows/Mac或docker版本不支持
 
 如果您使用最新的Lomorage树莓派系统镜像, 就无需再安装Lomo-frame应用，已经预装到系统中了。
 
-如果您没有使用Lomorage树莓派系统镜像，您可以使用下面的命令安装:
+如果您没有使用Lomorage树莓派系统镜像，请参考[这里](https://docs.lomorage.com/zh/docs/Installation/lomorage-service/installation-raspbian/#1-%e6%b7%bb%e5%8a%a0lomoware%e6%ba%90)添加lomoware的源，您可以使用下面的命令安装:
 
 ```bash
 sudo apt update
