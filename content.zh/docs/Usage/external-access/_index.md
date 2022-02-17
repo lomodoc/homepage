@@ -131,7 +131,7 @@ sudo创建文件“/etc/nginx/conf.d/lomorage.conf”，并填入如下内容（
 server {
     listen 443 ssl;
     listen [::]:443 ssl;
-    server_name jeromyfu.lomorage.com;
+    server_name demo.lomorage.com;
 
     ssl on;
     ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;

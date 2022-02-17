@@ -133,7 +133,7 @@ create “/etc/nginx/conf.d/lomorage.conf” (need sudo), and fill with content 
 server {
     listen 443 ssl;
     listen [::]:443 ssl;
-    server_name jeromyfu.lomorage.com;
+    server_name demo.lomorage.com;
 
     ssl on;
     ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;
