@@ -5,10 +5,10 @@ weight: 4
 
 # Install Lomorage Service on Windows
 
-（**Update：09/15/2021**）
-- update lomoweb
-- update to 64bit
-- Fix set dir regression issue.
+（**Update：02/17/2022**）
+- support album
+- support check update
+- fix some bugs on server side
 
 ### 1. Download
 Click the **Windows icon link** below to download Lomorage Server For Windows.
@@ -88,3 +88,8 @@ Enjoy!
 **Contact to us: support@lomorage.com**
 
 **If you are using HEIC/HEIF format on iPhone, you need to install "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)" and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)".**
+
+（**Update：09/15/2021**）
+- update lomoweb
+- update to 64bit
+- Fix set dir regression issue.
