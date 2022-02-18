@@ -80,6 +80,9 @@ OPTIONS:
 
 ## 从已有目录中导入媒体文件
 如果用户有一些媒体文件存储在已有的USB硬盘或者本地磁盘，或者远程mount的磁盘，并且希望可以直接导入到本系统里面，除了使用importer tool，也可以使用lomoc来完成，这样可以避免额外的网络流量。缺省情况下，lomoc会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，后端服务不会做任何操作。所有的导入日志存储在`/opt/lomorage/var/log/import_[import directory].log`里面。
+
+**需要注意的是import导入会根据目录结构自动的创建相册**
+
 ```
 $ /opt/lomorage/bin/lomoc import -h
 NAME:
