@@ -162,6 +162,14 @@ Lomod缺省监听端口是8000，如果需要自定义，清使用环境变量`L
 echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 ```
 
+#### 3.3 禁用磁盘监控
+
+Lomod会监控USB磁盘的加载状态，防止掉盘。如果因为某些原因需要禁用，可以使用环境变量`LOMOD_DISABLE_MOUNT_MONITOR`控制，比如
+
+```
+echo "LOMOD_DISABLE_MOUNT_MONITOR=1" | tee -a /opt/lomorage/etc/environment
+```
+
 ### 4. 运行
 
 重启Lomorage服务程序:
