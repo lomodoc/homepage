@@ -38,15 +38,13 @@ weight: 1
 
 下载了系统镜像后, 你可以使用[balenaEtcher](https://www.balena.io/etcher/)将其安装到MicroSD卡, balenaEtcher提供Windows和macOS版本。
 
-将MicroSD卡插入到台式电脑或笔记本的读卡器后，选择下载的系统镜像，选择MicroSD卡，点击“Flash“按钮，几分钟后就会安装完成。
-
 <div align="center">
 <p class="screenshoot">
   <img width="50%" src="/img/installation/balenaEtcher.png">
 </p>
 </div>
 
-安装完后，将MicroSD卡插入到树莓派，接上USB移动硬盘，插入网线，接通电源，等待几分钟系统启动。
+将MicroSD卡插入到台式电脑或笔记本的读卡器后，选择下载的系统镜像，选择MicroSD卡，点击“Flash“按钮，几分钟后工具就会提示您的MicroSD卡已经就绪, 之后将**MicroSD卡插入到树莓派，接上USB移动硬盘，插入网线，接通电源，等待几分钟系统启动完毕，您就可以用Lomorage 手机App开始备份照片了**。
 
 如果您连接了HDMI，系统启动完成后，会提示没有找到资源，也会显示一个二维码用来绑定Lomorage相框，**请先在iOS/Android手机应用上创建用户，然后再扫码绑定Lomorage相框**，您可以使用Lomorage手机应用程序上传照片，然后按"r"键重新扫描。如果您想退出到控制台做一些系统配置，可以按"ESC"退出，然后按"Ctrl+Alt+F2"切换到控制台，配置完成后，可以使用命令`sudo service supervisor restart`来启动Lomorage相框程序。
 
@@ -79,11 +77,12 @@ sudo rfkill unblock 0
 
 {{< /hint >}}
 
-## Docker安装
+# 其他安装方法
+## 选项一：Docker安装
 
 请参考[lomo-docker](https://github.com/lomorage/lomo-docker)安装Docker镜像。请使用arm的镜像"lomorage/raspberrypi-lomorage:latest"。
 
-## APT安装
+## 选项二：APT安装
 
 如果您运行官方的系统，APT是最快捷的安装方式。
 
