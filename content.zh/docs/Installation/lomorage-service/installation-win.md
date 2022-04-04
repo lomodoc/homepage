@@ -12,18 +12,16 @@ weight: 4
 ## 1. 点击下面的链接安装"Lomorage照片助手"程序。
 
 <p align="center">
-<a href="https://lomosw.lomorage.com/windows/LomoAgent.msi"><b>点击下载 ==></b></a>
-<a href="https://lomosw.lomorage.com/windows/LomoAgent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://lomosw.lomorage.com/windows/zh/LomoAgent.msi"><b>点击下载 ==></b></a>
+<a href="https://lomosw.lomorage.com/windows/zh/LomoAgent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
-**如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomoagent.msi)**
+**如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomorage/zh/lomoagent.msi)**
 
 ## 2. 双击"lomoagent.msi"开始安装。如果有Windows Defender提示未知应用，请参考如下步骤允许安装程序运行。
-
 <div align="center">
 <p class="screenshoot">
-  <img width="50%" src="/img/installation/windows-defender-1.png">
-  <img width="50%" src="/img/installation/windows-defender-2.png">
+  <img width="80%" src="/img/installation/windows/zh/windows-install-1.png">
 </p>
 </div>
 
@@ -31,9 +29,8 @@ weight: 4
 
 <div align="center">
 <p class="screenshoot">
-  <img width="50%" src="/img/installation/windows-install-1.png">
-  <img width="50%" src="/img/installation/windows-install-2.png">
-  <img width="50%" src="/img/installation/windows-install-3.png">
+  <img width="80%" src="/img/installation/windows/zh/windows-install-2.png">
+  <img width="80%" src="/img/installation/windows/zh/windows-install-3.png">
 </p>
 </div>
 
@@ -49,12 +46,12 @@ weight: 4
 
 <div align="center">
 <p class="screenshoot">
-  <img width="80%" src="/img/installation/windows-lomo-agent-zh.png">
+  <img width="100%" src="/img/installation/windows-lomo-agent-zh.png">
 </p>
 </div>
 
 
-## 6. 可以点击托盘图标右键菜单，选择“导入” 可以打开网页客户端进行导入和浏览您已经备份的照片！
+## 6. 可以点击托盘图标右键菜单，选择“打开网页客户端程序” 启动网页客户端进行导入和浏览您已经备份的照片！
 
 ## 7. 重置用户密码
 托盘右键菜单，选择 “重置用户密码”，按照界面提示操作。
