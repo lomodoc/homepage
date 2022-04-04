@@ -26,9 +26,9 @@ sudo apt install lomo-frame
 
 You have several options:
 
-1. Run Lomorage service and Lomo-frame on the same Raspberry Pi.
+1. Run "Lomorage Photo Assistant" and Lomo-frame on the same Raspberry Pi.
 
-2. Run Lomorage service on one Raspberry Pi, and run Lomo-frame on other Raspberry Pis. For example, you can run Lomo-frame on the cheap Raspberry Pi zero, and run Lomorage service on more powerful Raspberry Pi 4.
+2. Run "Lomorage Photo Assistant" on one Raspberry Pi, and run Lomo-frame on other Raspberry Pis. For example, you can run Lomo-frame on the cheap Raspberry Pi zero, and run "Lomorage Photo Assistant" on more powerful Raspberry Pi 4.
 
 Once you have Lomo-frame running, it will show a QRCode on the screen, and you can use iOS or Android APP to register the frame in settings, once success, you can share photos with the digital frame just like share with other contacts in Lomorage APP.
 
@@ -164,7 +164,7 @@ If you have keyboard connect with Raspberry Pi, you can press the following key 
 
 This setup need some expertise, sorry, will make it easier in the future using phone APP.
 
-If you already have one Raspberry Pi (Primary Raspberry Pi) setup for running Lomorage service, and having all the hard drivers connected with that device, you probably keep it in the storage room connected to the router with wired network, and want to setup the digital frame in bedroom or living room.
+If you already have one Raspberry Pi (Primary Raspberry Pi) setup for running "Lomorage Photo Assistant", and having all the hard drivers connected with that device, you probably keep it in the storage room connected to the router with wired network, and want to setup the digital frame in bedroom or living room.
 
 You can use a low cost Raspberry Pi zero w to setup the digital frame and access your digital assets via WiFi, it works pretty well, the video playback is very smooth.
 

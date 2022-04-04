@@ -3,22 +3,17 @@ title: Windows
 weight: 4
 ---
 
-# Install Lomorage Service on Windows
+# Install "Lomorage Photo Assistant" on Windows
 
-（**Update：02/17/2022**）
-- support album
-- support check update
-- fix some bugs on server side
-
-### 1. Download
-Click the **Windows icon link** below to download Lomorage Server For Windows.
+## 1. Download
+Click the **Windows icon link** below to download "Lomorage Photo Assistant" For Windows.
 
 <p align="center">
 <a href="https://lomosw.lomorage.com/windows/LomoAgent.msi"><b>Click to download ==></b></a>
 <a href="https://lomosw.lomorage.com/windows/LomoAgent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
-### 2. Double click "lomoagent.msi" to start installation.
+## 2. Double click "lomoagent.msi" to start installation.
 
  If Windows Defender shows "lomoagent.msi" as unknown application, please follow the steps below to allow it to run.
 
@@ -29,7 +24,7 @@ Click the **Windows icon link** below to download Lomorage Server For Windows.
 </p>
 </div>
 
-### 3. Follow the wizard
+## 3. Follow the wizard
  to finish the installation, in the End-User License Agreement, please checked the box as below.
 
 <div align="center">
@@ -40,8 +35,8 @@ Click the **Windows icon link** below to download Lomorage Server For Windows.
 </p>
 </div>
 
-### 4. Allow network access
-Now you should see the lomoagent icon on your desktop, you can double click to start the lomoagent. If you meet below dialog popuped up by the Windows os, please select "Private networks ..." one and click the Allow access.
+## 4. Allow network access
+Now you should see the lomoagent icon on your desktop, you can double click to start "Lomorage Photo Assistant". If you meet below dialog popuped up by the Windows os, please select "Private networks ..." one and click the Allow access.
 
 <div align="center">
 <p class="screenshoot">
@@ -49,8 +44,8 @@ Now you should see the lomoagent icon on your desktop, you can double click to s
 </p>
 </div>
 
-### 5. Config data folder
-You will see below picture while you start the lomoagent, **You need to config the "Data directory" before using it**，"Data directory" is used to save the photos and videos uploading from your phone.
+## 5. Config data folder
+You will see below picture while you start "Lomorage Photo Assistant", **You need to config the "Data directory" before using it**，"Data directory" is used to save the photos and videos uploading from your phone.
 
 <div align="center">
 <p class="screenshoot">
@@ -58,7 +53,7 @@ You will see below picture while you start the lomoagent, **You need to config t
 </p>
 </div>
 
-### 6. Open Web Client
+## 6. Open Web Client
 
 The Setting Windows will be hide to your taskbar tray area, normally it is on the right of the task bar like below picture:
 
@@ -78,18 +73,13 @@ Web client as below picture.
 </p>
 </div>
 
-### 7. **You can access this web interface via http://ip(the ip shown on the Settings Windows) from other device.**
+## 7. **You can access this web interface via http://ip(the ip shown on the Settings Windows) from other device.**
 
 
-### 8. if create user failed， please try to turn off Windows Firewall
+## 8. if create user failed， please try to turn off Windows Firewall
 
 Enjoy!
 
 **Contact to us: support@lomorage.com**
 
 **If you are using HEIC/HEIF format on iPhone, you need to install "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)" and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)".**
-
-（**Update：09/15/2021**）
-- update lomoweb
-- update to 64bit
-- Fix set dir regression issue.

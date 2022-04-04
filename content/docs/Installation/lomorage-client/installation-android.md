@@ -29,8 +29,7 @@ After launching Lomorage, it will take a few minutes to import all your photos a
 
 Then you can click the right up more menu to **Manage account**.
 
-At there, the app will automatically find the Lomorage service if you installed on Mac/Windows or Raspberry pi.
-
+At there, the app will automatically find "Lomorage Photo Assistant" if you installed on Mac/Windows or Raspberry pi.
 
 <div align="center">
 <p class="screenshoot">
@@ -45,10 +44,10 @@ At there, the app will automatically find the Lomorage service if you installed 
 
 <div align="center">
 Click right up menu to enter into account management page. <p />
-At there, App will find the Lomorage service automatically. <p />
+At there, App will find "Lomorage Photo Assistant" automatically. <p />
 Then you can create account and login. <p />
-Or you can use scan QR code to get Lomorage service address. <p />
-<b>（If you run Lomorage service in Windows PC or Mac) </b> <p />
+Or you can use scan QR code to get "Lomorage Photo Assistant" configuration. <p />
+<b>（If you run "Lomorage Photo Assistant" in Windows PC or Mac) </b> <p />
 <p class="screenshoot" />
 <img width="80%" src="/img/installation/android/f2b432d0-d092-4427-b29f-b3504d3a6221.jpg">
 <img width="80%" src="/img/installation/android/636e66db-7478-47da-900f-f00bc633ad31.jpg">
@@ -74,7 +73,7 @@ Or you can use scan QR code to get Lomorage service address. <p />
 </div>
 
 <div align="center">
-  Check all users in your Lomorage server via Members tab as below. <p />
+  Check all users in Lomorage via Members tab as below. <p />
   <p class = "screenshoot">
   <img width="80%" src="/img/installation/android/dea4adef-4ef2-4965-b2da-0a56ea9da015.jpg">
 

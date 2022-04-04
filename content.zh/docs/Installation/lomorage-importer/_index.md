@@ -10,9 +10,9 @@ title: "导入工具"
 # 什么是Lomorage 导入工具
 
 
-Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的桌面程序。
+Lomorage 导入工具是把照片和视频批量导入到Lomorage系统的桌面程序。
 
-它可以将Google Photo 下载下来的 ZIP 文件直接导入Lomorage 服务器，方便快捷。
+它可以将Google Photo 下载下来的 ZIP 文件直接导入Lomorage系统，方便快捷。
 
 也支持把本地现有的文件导入到Lomorage，选择某个目录或者批量选择文件
 
@@ -36,7 +36,7 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 
 
 # 例子: 如何批量导入某个文件夹（目录）里的所有图片和视频文件
-1. 按如下界面登录Lomorage 服务器
+1. 按如下界面登录Lomorage
 
 <div align="center">
   
@@ -59,7 +59,7 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 
 1. 第一步是去 takeout.google.com 把所有的照片下载下来，不需要解压
 
-2. 按如下界面登录Lomorage 服务器
+2. 按如下界面登录Lomorage
 
 <div align="center">
   
@@ -80,7 +80,7 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage 服务器的�
 有任何问题，请与我们联系：support at lomorage dot com
 
 ## 从已有目录中导入媒体文件
-如果用户有一些媒体文件存储在已有的USB硬盘或者本地磁盘，或者远程mount的磁盘，并且希望可以直接导入到本系统里面，除了使用importer tool，也可以使用lomoc来完成，这样可以避免额外的网络流量。缺省情况下，lomoc会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，后端服务不会做任何操作。所有的导入日志存储在`/opt/lomorage/var/log/import_[import directory].log`里面。
+如果用户有一些媒体文件存储在已有的USB硬盘或者本地磁盘，或者远程mount的磁盘，并且希望可以直接导入到本系统里面，除了使用importer tool，也可以使用lomoc来完成，这样可以避免额外的网络流量。缺省情况下，lomoc会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，"Lomorage照片助手"不会做任何操作。所有的导入日志存储在`/opt/lomorage/var/log/import_[import directory].log`里面。
 ```
 $ /opt/lomorage/bin/lomoc import -h
 NAME:
@@ -96,7 +96,7 @@ OPTIONS:
 
 需要注意事项:
  - 缺省情况下，lomod在端口8000监听，如果用户改变了监听端口，需要设置`--port`来指定新的监听端口`。
- - 缺省情况下，导入会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，后端服务不会做任何操作。
+ - 缺省情况下，导入会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，"Lomorage照片助手"不会做任何操作。
 
 导入日志范例:
 ```

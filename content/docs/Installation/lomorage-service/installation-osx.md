@@ -3,9 +3,9 @@ title: OSX
 weight: 5
 ---
 
-# Install Lomorage Service on MacOS
+# Install "Lomorage Photo Assistant" on MacOS
 
-<span>1.</span> Click the link below to download Lomorage Service Application.
+<span>1.</span> Click the link below to download "Lomorage Photo Assistant" Application.
 
 <p align="center">
 <a href="https://github.com/lomorage/LomoAgentOSX/releases/download/2022_03_07.22_38_01.0.0089004/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
@@ -21,9 +21,9 @@ weight: 5
 </p>
 </div>
 
-<span>3.</span> Run LomoAgent Application，please allow network access for LomoAgent if firewall is triggered.
+<span>3.</span> Run "Lomorage Photo Assistant" Application，please allow network access for "Lomorage Photo Assistant" if firewall is triggered.
 
-<span>4.</span> After launch the Lomorage application，**You need to set the "Home directory" before using Lomorage**，"Home directory" is used to save the photos and videos uploading from your phone。You can also set up a backup directory which served as redundancy backup.
+<span>4.</span> After launching the "Lomorage Photo Assistant" application，**You need to set the "Home directory" before using Lomorage**，"Home directory" is used to save the photos and videos uploading from your phone。You can also set up a backup directory which served as redundancy backup.
 
 <div align="center">
 <p class="screenshoot">

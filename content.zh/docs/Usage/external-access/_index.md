@@ -46,7 +46,7 @@ unzip ngrok-stable-linux-arm.zip
 
 ### 5. 运行ngrok
 
-Lomorage服务默认运行在8000端口，ngrok的免费账号不能自定义子域名，ngrok运行成功后，会自动绑定一个随机子域名，这个子域名在下次ngrok重新启动时会变化。
+"Lomorage照片助手"默认运行在8000端口，ngrok的免费账号不能自定义子域名，ngrok运行成功后，会自动绑定一个随机子域名，这个子域名在下次ngrok重新启动时会变化。
 
 ```bash
 ./ngrok http 8000
@@ -60,7 +60,7 @@ Lomorage服务默认运行在8000端口，ngrok的免费账号不能自定义子
 
 ## Nginx https代理 (方案2)
 
-另外的方案：如果您自己有域名，可以直接在路由器上打开端口映射并且配置https代理访问Lomorage服务。如果您对nignx配置比较熟悉，可以参考关于nginx的配置；否则建议使用比较流行的Nginx Proxy Manager开源软件进行配置
+另外的方案：如果您自己有域名，可以直接在路由器上打开端口映射并且配置https代理访问"Lomorage照片助手"。如果您对nignx配置比较熟悉，可以参考关于nginx的配置；否则建议使用比较流行的Nginx Proxy Manager开源软件进行配置
 
 {{< hint info >}}
 如果您使用Lomorage的树莓派镜像, 登陆的用户名是"pi"，密码是"raspberry";
@@ -145,7 +145,7 @@ server {
 }
 ```
 
-如果Lomorage和nginx运行在不同的设备上，可以将localhost改成Lomorage服务器的ip地址。
+如果Lomorage和nginx运行在不同的设备上，可以将localhost改成"Lomorage照片助手"的ip地址。
 
 配置完成后，重新加载配置并启用nginx服务:
 
@@ -154,4 +154,4 @@ sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
 
-最后可以在电脑或者手机浏览器下访问https://www.example..com/system 验证（请替换为自己的域名）是否能通过https访问lomorage服务。
+最后可以在电脑或者手机浏览器下访问https://www.example..com/system 验证（请替换为自己的域名）是否能通过https访问"Lomorage照片助手"。

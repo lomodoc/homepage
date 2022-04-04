@@ -79,7 +79,7 @@ OPTIONS:
 ```
 
 ## Import from one existing folders
-Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
+Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with  "Lomorage Photo Assistant". It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
 
 **Should be notice that the import will creates albums automatically according to the directories structures**
 

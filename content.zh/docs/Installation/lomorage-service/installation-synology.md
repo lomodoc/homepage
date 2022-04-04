@@ -71,7 +71,7 @@ weight: 6
 
 ## 4. Done 
 
-点击 `Apply` 按钮，lomorage container应当开始运行，你可以从手机端访问后端服务
+点击 `Apply` 按钮，lomorage container应当开始运行，你可以从手机端访问"Lomorage照片助手"
 
 <p align="center">
   <img width="50%" src="/img/installation/synology11.png">
@@ -79,7 +79,7 @@ weight: 6
 
 ## 5. 高级MAC vlan docker 网络
 
-上述步骤使用缺省的docker bridge网络，用户需要在手机端手动输入ip和端口。如果用户对ssh和docker命令有些了解，可以通过添加docker mac vlan网络的方式来启用MDNS功能，这样手机端就可以自动发现后端服务。首先需要确认你知道自己的子网，网关ip，网络接口名字，lomorage container分配的新的静态ip，以下截图假设
+上述步骤使用缺省的docker bridge网络，用户需要在手机端手动输入ip和端口。如果用户对ssh和docker命令有些了解，可以通过添加docker mac vlan网络的方式来启用MDNS功能，这样手机端就可以自动发现"Lomorage照片助手"。首先需要确认你知道自己的子网，网关ip，网络接口名字，lomorage container分配的新的静态ip，以下截图假设
  - subnet: 192.168.1.0/24
  - gateway: 192.168.1.1
  - interface name: eth0

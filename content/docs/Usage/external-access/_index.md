@@ -48,7 +48,7 @@ On the "Setup & Installation" page step 3, it shows the “authtoken”, you nee
 
 ### 5. Run ngrok
 
-Lomorage service is using "8000" by default, and ngrok can't customize subdomain with free account. After runnig successfully, it will show the tunnel url, the subdomain is a random string which might change in next run.
+"Lomorage Photo Assistant" is using "8000" by default, and ngrok can't customize subdomain with free account. After runnig successfully, it will show the tunnel url, the subdomain is a random string which might change in next run.
 
 ```bash
 ./ngrok http 8000
@@ -147,7 +147,7 @@ server {
 }
 ```
 
-If your Lomorage service and nginx are running on different devices, change "localhost" to the IP address running Lomorage service.
+If your "Lomorage Photo Assistant" and nginx are running on different devices, change "localhost" to the IP address running Lomorage service.
 
 Now reload config, restart and enable Nginx service
 

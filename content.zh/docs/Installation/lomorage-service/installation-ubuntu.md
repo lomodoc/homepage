@@ -43,7 +43,7 @@ sudo apt update
 
 您至少需要安装lomo-vips,lomo-base-lite和lomo-backend。
 
-- lomo-backend: 必须, Lomorage服务程序
+- lomo-backend: 必须, "Lomorage照片助手"程序
 
 - lomo-base-lite: 可选, 硬盘自动加载和休眠
 
@@ -65,7 +65,7 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 
 #### 3.1 修改磁盘mount目录
 
-如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加Lomorage服务程序运行参数来指定加载目录。
+如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加"Lomorage照片助手"程序运行参数来指定加载目录。
 
 比如如果您使用PCManFM，那么加载的路径会是"/media/pi"。 要指定加载目录"/media/pi", 请添加环境变量`LOMOD_MOUNT_DIR=/media/pi`在`/opt/lomorage/etc/environment`，比如
 
@@ -87,7 +87,7 @@ echo "LOMOD_PORT_HTTP=8888" | tee -a /opt/lomorage/etc/environment
 
 ## 4. 运行
 
-重启Lomorage服务程序:
+重启"Lomorage照片助手"程序:
 
 ```bash
 # 重启lomo-backend

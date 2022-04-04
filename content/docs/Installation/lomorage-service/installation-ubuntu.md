@@ -43,7 +43,7 @@ sudo apt update
 
 You need at least lomo-vips, lomo-base-lite and lomo-backend installed.
 
-- lomo-backend: mandatory, Lomorage service backend
+- lomo-backend: mandatory, "Lomorage Photo Assistant" backend
 
 - lomo-base-lite: optional, hard drive mount tool, rsync, jq etc
 
@@ -95,7 +95,7 @@ Another option is `cp /lib/systemd/system/lomod.service /etc/systemd/system/lomo
 
 ## 4. Run
 
-Restart Lomorage service:
+Restart "Lomorage Photo Assistant":
 
 ```bash
 # restart lomo-backend

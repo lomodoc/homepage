@@ -7,13 +7,13 @@ title: "Import Tool"
 # What is Lomorage Importer
 It is most likely user already stored historical photos / videos at multiple places, and hope to consolidate all at one place.
 
-Lomorage provides 3 ways to batch import these existing assets to lomorage server:
+Lomorage provides 3 ways to batch import these existing assets into the system:
 1. Native tool - recommended option
 2. Web client
 3. Command line tool - advanced option
 
 ## Import by native tool
-Import all assets under specified directory or single file. The tool will analysis asset create time by EXIF tool, and supply while import. It also support to import Google photo takeout ZIP file directly to Lomorage server.
+Import all assets under specified directory or single file. The tool will analysis asset create time by EXIF tool, and supply while import. It also support to import Google photo takeout ZIP file directly into Lomorage.
 
 Currently it support **Windows and MacOS**.
 
@@ -59,7 +59,7 @@ Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 
 
 1. Download your google photo from takeout.google.com
 
-2. Login to Lomorage Server
+2. Login to Lomorage
 
 <div align="center">
   
@@ -78,7 +78,7 @@ Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 
 </div>
 
 ## Import by command line
-Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with the server running lomorage backend. It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
+Command line tool is for advanced user when the existing assets are in attached USB or Local/NFS/CIFS mounted disks along with "Lomorage Photo Assistant". It can avoid unnecessary back-and-forth network traffic as well as disk operation. During import, the tool will move existing assets to the directories created by lomorage for each user, or not move asset while inserting record only if supply `--no-move` option. All import logs are saved under /opt/lomorage/var/log/import_[import directory].log. Below is usage for the tool.
 ```
 $ /opt/lomorage/bin/lomoc import -h
 NAME:

@@ -3,7 +3,7 @@ title: Raspbian
 weight: 1
 ---
 
-# 在树莓派上安装Lomorage服务程序
+# 在树莓派上安装"Lomorage照片助手"程序
 
 要在树莓派上运行，您需要先购买一个[树莓派](https://www.raspberrypi.org/)，Lomorage可以运行在以下型号的机器上:
 
@@ -18,13 +18,13 @@ weight: 1
 - 配套电源
 - 16GB MicroSD卡
 
-**有3种方式来在Raspberry Pi上安装Lomorage服务程序**, 一种是安装预编译好的系统镜像，该镜像已经安装了所有Lomorage服务程序依赖的库和第三方工具，简单快捷，推荐使用；如果您已经有树莓派在运行其他服务，您也可以使用Docker镜像来安装，或者使用从APT源安装。
+**有3种方式来在Raspberry Pi上安装"Lomorage照片助手"程序**, 一种是安装预编译好的系统镜像，该镜像已经安装了所有"Lomorage照片助手"程序依赖的库和第三方工具，简单快捷，推荐使用；如果您已经有树莓派在运行其他服务，您也可以使用Docker镜像来安装，或者使用从APT源安装。
 
 ## 安装系统镜像
 
 预装的系统镜像包括所有的包:
 
-- lomo-backend: Lomorage服务程序
+- lomo-backend: "Lomorage照片助手"程序
 
 - lomo-base: 系统工具，包括网络配置，开关控制, 磁盘加载, 蓝牙控制台
 
@@ -117,7 +117,7 @@ sudo apt update
 
 最小安装需要lomo-vips和lomo-backend，您可以根据自己需要进行选择。
 
-- lomo-backend: 必须, Lomorage服务程序
+- lomo-backend: 必须, "Lomorage照片助手"程序
 
 - lomo-base: 可选, 系统工具，包括网络配置，开关控制, 磁盘加载, 蓝牙控制台
 
@@ -141,7 +141,7 @@ echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$USER
 
 #### 3.1 修改磁盘mount目录
 
-如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加Lomorage服务程序运行参数来指定加载目录。
+如果您不是使用步骤4的usbmount来自动加载磁盘（没有加载到"/media"路径下的子目录），您需要添加"Lomorage照片助手"程序运行参数来指定加载目录。
 
 比如如果您使用PCManFM，那么加载的路径会是"/media/pi"。 要指定加载目录"/media/pi", 请添加环境变量`LOMOD_MOUNT_DIR=/media/pi`在`/opt/lomorage/etc/environment`，比如
 
@@ -171,7 +171,7 @@ echo "LOMOD_DISABLE_MOUNT_MONITOR=1" | tee -a /opt/lomorage/etc/environment
 
 ### 4. 运行
 
-重启Lomorage服务程序:
+重启"Lomorage照片助手"程序:
 
 ```bash
 # 重启lomo-backend

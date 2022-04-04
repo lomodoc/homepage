@@ -3,7 +3,7 @@ title: Raspbian
 weight: 1
 ---
 
-# Install Lomorage Service on Raspberry Pi
+# Install "Lomorage Photo Assistant" on Raspberry Pi
 
 To run on Raspberry Pi, you need to order a [Raspberry Pi](https://www.raspberrypi.org/), we have tested the image the following models:
 
@@ -20,13 +20,13 @@ If you don't have one yet, we would recommend the newer version, which gives bet
 
 A [Raspberry Pi 3 B+ (PLUS) Starter Kit](https://www.pishop.us/product/raspberry-pi-3-b-plus-starter-kit/) is good enough for the setup.
 
-**There are 3 options to install Lomorage service on Raspberry Pi**, one is using the prebuild OS image which has all the dependencies installed, or you can run docker image on your existing running Raspberry Pi, or if you can just use APT install.
+**There are 3 options to install "Lomorage Photo Assistant" on Raspberry Pi**, one is using the prebuild OS image which has all the dependencies installed, or you can run docker image on your existing running Raspberry Pi, or if you can just use APT install.
 
 ## Install with prebuild OS image
 
 The prebuild image includes all Lomorage packages, including:
 
-- lomo-backend: Lomorage service backend
+- lomo-backend: "Lomorage Photo Assistant" backend
 
 - lomo-base: network configure tool, button control, hard drive mount tool (usbmount modification), bluetooth console
 
@@ -117,7 +117,7 @@ sudo apt update
 
 You need at least lomo-vips and lomo-backend installed.
 
-- lomo-backend: mandatory, Lomorage service backend
+- lomo-backend: mandatory, "Lomorage Photo Assistant" backend
 
 - lomo-base: optional, network configure tool, button control, hard drive mount tool, bluetooth console
 
@@ -173,7 +173,7 @@ echo "LOMOD_DISABLE_MOUNT_MONITOR=1" | tee -a /opt/lomorage/etc/environment
 
 ### 4. Run
 
-Restart Lomorage service:
+Restart "Lomorage Photo Assistant":
 
 ```bash
 # restart lomo-backend

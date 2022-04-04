@@ -43,7 +43,7 @@ weight: 2
 
 
 Lomorage 是一款个人私有照片和视频备份工具，它方便的把您的照片和视频备份到Windows PC机或者Apple MAC机，也可以备份到Lomorage 定制的树莓派上。
-您需要在Windows 或者 Mac 或者 树莓派上安装 Lomorage 服务程序。 
+您需要在Windows 或者 Mac 或者 树莓派上安装 "Lomorage照片助手"。 
 
 安装完Lomorage客户端，可能需要花一两分钟时间导入您的视频和照片。然后在Manage Account界面可以创建账号，登录，下拉备份您的照片和视频，还可以和您的家人进行分享。
 
@@ -58,10 +58,10 @@ Lomorage 是一款个人私有照片和视频备份工具，它方便的把您�
 
 <div align="center">
 点击右上角的菜单，进入账号管理界面. <p />
-在那里，App会自动发现您的Lomorage服务器程序 <p />
+在那里，App会自动发现您的"Lomorage照片助手"程序 <p />
 然后创建账号，登录。<p />
-您也可以通过二维码扫描您的Lomorage服务器程序. <p />
-（如果您用的是Windows或者Mac的Lomorage 服务程序） <p />
+您也可以通过二维码扫描您的"Lomorage照片助手"程序. <p />
+（如果您用的是Windows或者Mac的"Lomorage照片助手"） <p />
 <p class="screenshoot" />
 <img width="80%" src="/img/installation/android/f2b432d0-d092-4427-b29f-b3504d3a6221.jpg">
 <img width="80%" src="/img/installation/android/636e66db-7478-47da-900f-f00bc633ad31.jpg">

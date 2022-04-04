@@ -30,7 +30,7 @@ weight: 6
   <img width="50%" src="/img/installation/unraid4.png">
 </p>
 
-- Network: 缺省值是`host`模式，这主要是因为手机客户端需要试用MDNS来自动发现后端服务，如果您愿意手动配置手机客户端，可以将此处设置为bridge模式
+- Network: 缺省值是`host`模式，这主要是因为手机客户端需要试用MDNS来自动发现"Lomorage照片助手"，如果您愿意手动配置手机客户端，可以将此处设置为bridge模式
 - ExtraParams: 缺省值是`99:100`. 这个参数需要和下面的`User` 配置一起使用。这个值主要是为了保证上传的图片和视频可以有正确的Linux用户名和组名，这样的话用户就可以利用unraid的共享服务，从电脑端远程访问图片和视频.其中，99 是`nobody`用户在linux下面的ID, 100 是`nobody`组在linux下面的ID. 用户可以根据自己需要定制这些值.
 - PostArgs: 缺省值是`8000`, 是 lomorage 后端的监听端口.
 - Config

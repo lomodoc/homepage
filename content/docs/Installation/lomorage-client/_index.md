@@ -5,7 +5,7 @@ weight: 11
 
 # Lomorage Client
 
-After running Lomorage Service, you can then install Lomorage client on smart phone.
+After running "Lomorage Photo Assistant", you can then install Lomorage client on smart phone.
 
 You can also use the web client to upload assets on your desktop/laptop, or use it to browser the photo/video gallery.
 
