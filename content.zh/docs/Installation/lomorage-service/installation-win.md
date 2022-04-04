@@ -12,13 +12,13 @@ weight: 4
 ## 1. 点击下面的链接安装"Lomorage照片助手"程序。
 
 <p align="center">
-<a href="https://lomosw.lomorage.com/windows/zh/LomoAgent.msi"><b>点击下载 ==></b></a>
-<a href="https://lomosw.lomorage.com/windows/zh/LomoAgent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 **如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomorage/zh/lomoagent.msi)**
 
-## 2. 双击"lomoagent.msi"开始安装。如果有Windows Defender提示未知应用，请参考如下步骤允许安装程序运行。
+## 2. 双击"lomoagent.msi", 点击【下一步】开始安装
 <div align="center">
 <p class="screenshoot">
   <img width="80%" src="/img/installation/windows/zh/windows-install-1.png">
