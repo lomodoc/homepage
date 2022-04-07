@@ -104,22 +104,22 @@ $ sudo apt-get install certbot python-certbot-nginx -y
 
 **First, make sure you have your domain name configured and opened TCP port mapping 80 and 443 on your home router, and forward those traffic to the device running Nginx on the same port.**
 
-**Following part will use "www.example.com" as an example**
+**Following part will use "bob.lomorage.com" as an example**
 
 ```
-$ sudo certbot --nginx -d www.example.com
+$ sudo certbot --nginx -d bob.lomorage.com
 ```
 
 And this will generate certificate as below:
 
 ```
-$ sudo certbot --nginx -d www.example.com
+$ sudo certbot --nginx -d bob.lomorage.com
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
-Requesting a certificate for www.example.com
+Requesting a certificate for bob.lomorage.com
 
 Successfully received certificate.
-Certificate is saved at: /etc/letsencrypt/live/www.example.com/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/www.example.com/privkey.pem
+Certificate is saved at: /etc/letsencrypt/live/bob.lomorage.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/bob.lomorage.com/privkey.pem
 This certificate expires on 2021-11-14.
 These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
@@ -127,7 +127,7 @@ Certbot has set up a scheduled task to automatically renew this certificate in t
 
 #### 3. config Nginx
 
-create “/etc/nginx/conf.d/lomorage.conf” (need sudo), and fill with content below (change "www.example.com" with your own domain name):
+create “/etc/nginx/conf.d/lomorage.conf” (need sudo), and fill with content below (change "bob.lomorage.com" with your own domain name):
 
 ```
 server {
@@ -136,8 +136,8 @@ server {
     server_name demo.lomorage.com;
 
     ssl on;
-    ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/www.example.com/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/bob.lomorage.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/bob.lomorage.com/privkey.pem;
 
     location / {
         client_max_body_size 0;
@@ -156,4 +156,4 @@ sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
 
-Now you can verify the settings using browser by accessing "https://www.example..com/system" (change "www.example.com" with your own domain name).
+Now you can verify the settings using browser by accessing "https://bob.lomorage.com/system" (change "bob.lomorage.com" with your own domain name).

@@ -102,22 +102,22 @@ $ sudo apt-get install certbot python-certbot-nginx -y
 
 ## 2. 生成证书
 
-首先确保域名配置正确，然后在路由器上打开端口映射，将外网TCP80端口和443端口分别映射到安装nginx的设备80端口和443端口上。（下面配置以www.example.com 为例，请替换为自己的域名。）
+首先确保域名配置正确，然后在路由器上打开端口映射，将外网TCP80端口和443端口分别映射到安装nginx的设备80端口和443端口上。（下面配置以bob.lomorage.com 为例，请替换为自己的域名。）
 
 ```
-$ sudo certbot --nginx -d www.example.com
+$ sudo certbot --nginx -d bob.lomorage.com
 ```
 
 这一步会输出证书目录
 
 ```
-$ sudo certbot --nginx -d www.example.com
+$ sudo certbot --nginx -d bob.lomorage.com
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
-Requesting a certificate for www.example.com
+Requesting a certificate for bob.lomorage.com
 
 Successfully received certificate.
-Certificate is saved at: /etc/letsencrypt/live/www.example.com/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/www.example.com/privkey.pem
+Certificate is saved at: /etc/letsencrypt/live/bob.lomorage.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/bob.lomorage.com/privkey.pem
 This certificate expires on 2021-11-14.
 These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
@@ -125,17 +125,17 @@ Certbot has set up a scheduled task to automatically renew this certificate in t
 
 ## 3. 配置nginx
 
-sudo创建文件“/etc/nginx/conf.d/lomorage.conf”，并填入如下内容（下面配置以www.example.com 为例，请替换为自己的域名。）:
+sudo创建文件“/etc/nginx/conf.d/lomorage.conf”，并填入如下内容（下面配置以bob.lomorage.com 为例，请替换为自己的域名。）:
 
 ```
 server {
     listen 443 ssl;
     listen [::]:443 ssl;
-    server_name demo.lomorage.com;
+    server_name bob.lomorage.com;
 
     ssl on;
-    ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/www.example.com/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/bob.lomorage.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/bob.lomorage.com/privkey.pem;
 
     location / {
         client_max_body_size 0;
@@ -154,4 +154,4 @@ sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
 
-最后可以在电脑或者手机浏览器下访问https://www.example..com/system 验证（请替换为自己的域名）是否能通过https访问"Lomorage照片助手"。
+最后可以在电脑或者手机浏览器下访问https://bob.lomorage.com/system 验证（请替换为自己的域名）是否能通过https访问"Lomorage照片助手"。
