@@ -8,26 +8,26 @@ weight: 6
 1. 输入关键字lomorage，点击搜索
 
 <p align="center">
-  <img width="50%" src="/img/installation/unraid1.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/unraid1.png">
 </p>
 
 当您发现lomorage应用以后，您可以点击`info`图标，从而了解更多有关lomorage在unraid论坛里面的支持
 
 <p align="center">
-  <img width="50%" src="/img/installation/unraid2.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/unraid2.png">
 </p>
 
 2. 点击安装，当下图出现的时候，说明安装已经成功
 
 <p align="center">
-  <img width="50%" src="/img/installation/unraid3.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/unraid3.png">
 </p>
 
 # Unraid 模版修改
 如果您对缺省的模版需要修改，请参考以下说明：
 
 <p align="center">
-  <img width="50%" src="/img/installation/unraid4.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/unraid4.png">
 </p>
 
 - Network: 缺省值是`host`模式，这主要是因为手机客户端需要试用MDNS来自动发现"Lomorage照片助手"，如果您愿意手动配置手机客户端，可以将此处设置为bridge模式
@@ -44,17 +44,17 @@ Nginx Proxy Manager 是一个流行的免费反向代理服务器，可以用来
 1. 登陆之后，点击 `Add Proxy Host`, 然后设置自己的域名和转发ip，转发端口是上面设置的监听端口
 
 <p align="center">
-  <img width="50%" src="/img/installation/npm1.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/npm1.png">
 </p>
 
 2. 点击 `SSL`，配置证书域名
 
 <p align="center">
-  <img width="50%" src="/img/installation/npm2.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/npm2.png">
 </p>
 
 3. 点击`Save`, 新添加的proxy host会显示在列表中
 
 <p align="center">
-  <img width="50%" src="/img/installation/npm3.png">
+  <img style="max-width:100%; object-fit: contain;"  src="/img/installation/npm3.png">
 </p>
