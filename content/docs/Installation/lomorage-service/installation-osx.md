@@ -8,7 +8,7 @@ weight: 5
 <span>1.</span> Click the link below to download "Lomorage Photo Assistant" Application.
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentOSX/releases/download/2022_04_08.06_18_38.0.d4e4100/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
+<a href="https://github.com/lomorage/LomoAgentOSX/releases/download/2022_04_19.09_44_42.0.d3499e8/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
 </p>
 
 <span>2.</span> Double click "LomoAgent.dmg" to start installation, and follow the steps below to finish the installation.
