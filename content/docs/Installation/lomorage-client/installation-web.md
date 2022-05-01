@@ -7,7 +7,7 @@ weight: 3
 
 You can use Lomorage Web client to upload photos/videos from desktop/laptop using browser, and you can use the gallery to view the photos/videos stored in Lomorage.
 
-If you are using "Lomorage Photo Assistant" in MacOS, then you can just click "import" menu item in Lomorage Photo Assistant Application, and it will open the web application.
+If you are using "Lomorage Photo Assistant" in MacOS, then you can just click "Web Access" menu item in Lomorage Photo Assistant Application, and it will open the web application.
 
 If you are using "Lomorage Photo Assistant" in Raspberry Pi, you can open "[http://raspberrypi-lomorage.local:8000](http://raspberrypi-lomorage.local:8000)" in the browser on your desktop/laptop to use Lomorage web client.
 
