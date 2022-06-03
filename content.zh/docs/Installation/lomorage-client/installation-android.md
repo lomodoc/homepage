@@ -8,9 +8,7 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 最近更新：2021-09-25
-- 增加断点续传功能
-
+## 更新信息：
 
 更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)
 

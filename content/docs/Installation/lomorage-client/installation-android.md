@@ -8,10 +8,6 @@ weight: 2
 
 Currently you can install the app on **Android** phone, the minimal version is **7.1**.
 
-## Latest Update：2021-09-25
-- add breaking-resume uploading
-
-
 **Click below icon to go to Goole Play Store to download.**
 
 <p align="center">
