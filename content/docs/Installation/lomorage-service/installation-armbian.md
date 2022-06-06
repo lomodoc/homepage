@@ -19,7 +19,7 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 
 It should support all the SBC supported by official Armbian, but if you find it doesn't work, feel free to reach us.
 
-There is a [prebuild image](https://github.com/lomorage/build/releases/download/2021_08_07.23_17_35.0.ac86f0745/Armbian_21.05.0-trunk_Orangepizero_buster_current_5.10.21_minimal.img.xz) for [Orange Pi Zero](http://www.orangepi.org/orangepizero/).
+There is a [prebuild image](https://github.com/lomorage/build/releases/download/2022_06_06.16_09_16.0.c5da5e1d4/Armbian_22.08.0-trunk_Orangepizero_buster_current_5.15.43_minimal.img.xz) for [Orange Pi Zero](http://www.orangepi.org/orangepizero/).
 
 The default Armbian login username is "lomoware" and password is "lomorage".
 
