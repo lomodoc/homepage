@@ -16,7 +16,6 @@ weight: 4
 <a href="https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
-**如果上面链接无法访问，也可以点击[这里下载](https://aisnote.com/lomorage/zh/lomoagent.msi)**
 
 ## 2. 双击"lomoagent.msi", 点击【下一步】开始安装
 <div align="center">
