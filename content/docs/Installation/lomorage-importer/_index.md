@@ -25,8 +25,6 @@ Go to [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 
 #### Or directly download here:
 - MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://lomosw.lomorage.com/mac/LomoImporter.zip)
 
-- Old version for Windows[lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
-
 
 
 ### Quick intro

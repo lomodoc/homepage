@@ -4,8 +4,7 @@ bookFlatSection: true
 title: "导入工具"
 ---
 
-# 最近更新: 08/31/2021
-- 修复 读取heic exif 时间，转换闪退问题
+# 最近更新: 07/19/2022
   
 # 什么是Lomorage 导入工具
 
@@ -23,11 +22,12 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage系统的桌面
 可以去Github [Lomo-importer@github](https://github.com/lomorage/lomo-importer-release) 下载最新的可执行程序。
 
 ## 最新导入工具下载链接
+
+**如果您使用的是Windows的Lomorage照片助手，可以直接从照片助手程序界面启动导入工具，而无需再下载该导入工具！**
+
 - Windows [lomoimpt_x642021-08-31_14-11-38_win.zip](https://lomosw.lomorage.com/windows/LomoImporter.zip)
-
+  
 - MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://lomosw.lomorage.com/mac/LomoImporter.zip)
-
-- 旧版Windows [lomoimpt2021-08-09_17-50-57_win.zip](https://github.com/lomorage/lomo-importer-release/releases/download/2021-08-09_17-50-57/lomoimpt2021-08-09_17-50-57_win.zip)
 
 
 # 快速使用视频
