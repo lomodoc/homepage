@@ -23,5 +23,9 @@ weight: 10
 &nbsp;
 <a href="/zh/docs/Installation/lomorage-service/installation-unraid/" title="Unraid上安装Lomorage照片助手" class="badge unraid">Unraid</a>
 &nbsp;
+
+<!--
 <a href="/zh/docs/Installation/lomorage-service/installation-openwrt/" title="OpenWRT上安装Lomorage照片助手" class="badge openwrt">Openwrt</a>
+-->
+
 </p>
