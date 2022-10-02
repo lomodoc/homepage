@@ -94,6 +94,7 @@ USAGE:
 OPTIONS:
    --port value, -p value  (default: 8000)
    --no-move, -n           not moving original photos/videos, and only insert record in db
+   --no-video, --nv        not scan video files. This is to speed up the first import process
 ```
 
 Note:
