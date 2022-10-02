@@ -94,11 +94,13 @@ USAGE:
 OPTIONS:
    --port value, -p value  (default: 8000)
    --no-move, -n           not moving original photos/videos, and only insert record in db
+   --no-video, --nv        not scan video files. This is to speed up the first import process
 ```
 
 需要注意事项:
  - 缺省情况下，lomod在端口8000监听，如果用户改变了监听端口，需要设置`--port`来指定新的监听端口`。
  - 缺省情况下，导入会删除旧文件，移动到新目录下，但是如果用户指定`--no-move`选项，则旧文件会仍然保留在已有的目录中，"Lomorage照片助手"不会做任何操作。
+ - 缺省情况下，后台会导入图片和视频文件，由于视频文件的缩略图生成比较耗时，用户可以选择`--no-video`选项来忽略视频文件导入。由于每次导入后台会检查文件SHA，所以用户可以在第一次导入成功以后，再一次扫描并且导入视频文件。
 
 导入日志范例:
 ```

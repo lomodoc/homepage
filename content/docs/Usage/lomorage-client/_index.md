@@ -99,6 +99,7 @@ OPTIONS:
 Note:
  - `--port` is listen port of `lomod` backend service. It is 8000 by default.
  - `--no-move` is to hint backend service not moving assets, and only insert record in DB. By default it is false, and import will **MOVE** all assets and consolidate them into one location
+ - `--no-video` is to hint backend service not scanning video files. This is to speed up the first import process. Since backend always check assets exists or not by their SHA, you can safely import video at the 2nd time.
 
 Example:
 ```
