@@ -9,8 +9,8 @@ weight: 4
 Click the **Windows icon link** below to download "Lomorage Photo Assistant" For Windows.
 
 <p align="center">
-<a href="https://lomosw.lomorage.com/windows/LomoAgent.msi"><b>Click to download ==></b></a>
-<a href="https://lomosw.lomorage.com/windows/LomoAgent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/en/lomoagent.msi"><b>Click to download ==></b></a>
+<a href="https://github.com/lomorage/LomoAgentWin/releases/download/en/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 ## 2. Double click "lomoagent.msi" to start installation.

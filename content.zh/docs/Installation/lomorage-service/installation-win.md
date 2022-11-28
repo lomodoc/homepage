@@ -12,8 +12,8 @@ weight: 4
 ## 1. 点击下面的链接安装"Lomorage照片助手"程序。
 
 <p align="center">
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi"><b>点击下载 ==></b></a>
-<a href="https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
+<a href="https://gfw.lomorage.com/https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi"><b>点击下载 ==></b></a>
+<a href="https://gfw.lomorage.com/https://github.com/lomorage/LomoAgentWin/releases/download/zh/lomoagent.msi" title="Install Lomorage for Windows" class="badge windows">Windows</a>
 </p>
 
 
