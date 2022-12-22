@@ -25,8 +25,5 @@ The first step is to set up "Lomorage Photo Assistant".
 &nbsp;
 <a href="/docs/Installation/lomorage-service/installation-unraid/" title="Install \"Lomorage Photo Assistant\" on Unraid" class="badge unraid">Unraid</a>
 &nbsp;
-
-<!--
 <a href="/docs/Installation/lomorage-service/installation-openwrt/" title="Install \"Lomorage Photo Assistant\" on OpenWRT" class="badge openwrt">Openwrt</a>
--->
 </p>
