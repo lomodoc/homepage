@@ -8,7 +8,7 @@ weight: 2
 
 您可以在安卓手机上安卓Lomorage App，最低支持的安卓系统版本是**7.1**。
 
-## 更新信息：
+## 更新信息：（**2023/01/08**）
 
 更多请查看 [Lomorage Github](https://github.com/lomorage/lomo-android-apk-release)
 
@@ -23,6 +23,9 @@ weight: 2
 
 <p align="center">
 <a href="https://lomosw.lomorage.com/android/lomorage.apk">直接下载APK</a>
+
+<p align="center">
+<a href="https://github.com/lomorage/lomo-android-apk-release/releases">从GitHub下载</a>
 <!--
  &nbsp;
 <a href=""><img alt="Get it on Google Play" src="/img/installation/app-store-google.svg" width="220"></a>
