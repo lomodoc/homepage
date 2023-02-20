@@ -8,7 +8,7 @@ weight: 5
 <span>1.</span> 点击下面的链接安装"Lomorage照片助手"程序。
 
 <p align="center">
-<a href="https://gfw.lomorage.com/https://github.com/lomorage/LomoAgentOSX/releases/download/2022_12_21.11_24_23.0.2f18641/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
+<a href="https://gfw.lomorage.com/https://github.com/lomorage/LomoAgentOSX/releases/download/2023_02_20.12_46_05.0.d944bc7/LomoAgent.dmg" title="Install Lomorage for macOS" class="badge osx">macOS</a>
 <a href="https://gfw.lomorage.com/https://github.com/lomorage/LomoAgentOSX/releases/download/2022_11_06.11_49_42.0.1e206ec/LomoAgent.dmg" title="Install Lomorage for macOS M1" class="badge osx">macOS M1</a>
 </p>
 
