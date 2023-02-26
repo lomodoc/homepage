@@ -130,6 +130,21 @@ finish import /media/STEC_838C-1111/test/img/preview.jpg to /media/STEC_838C-111
 FINISH: totally scanned 1 directories, and imported 12 media files
 ```
 
+## Import with USB
+
+You can access the photos on iPhone/Android directly via USB, and can import photo folder directly with wire instead of using wireless, this can make the import faster, especially when you have lots of photos to import in the beginning. Once mounted in the file system, you can use the above import tools.
+
+### iOS
+
+If you are using Windows 11, it will mount iOS photo folder automatically
+
+If you are using Linux, you can follow the link [here](https://opensource.com/article/21/8/libimobiledevice-iphone-linux) to use libimobiledevice and ifuse to mount iPhone storage to the file system.
+
+If you are using macOS, you can still install libimobiledevice tool, but ifuse is not available for macOS, and you have to install [osxfuse](https://github.com/osxfuse/osxfuse/releases) and [ifuse-mac](https://github.com/gromgit/homebrew-fuse), you can install ifuse-mac with brew: `brew install gromgit/fuse/ifuse-mac`.
+
+### Android
+
+TODO
 
 # Contact us
 Any questions, please let us know!

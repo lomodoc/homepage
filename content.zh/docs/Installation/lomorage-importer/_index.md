@@ -131,6 +131,20 @@ start import /media/STEC_838C-1111/test/img/9_2013_07_28.png
 finish import /media/STEC_838C-1111/test/img/9_2013_07_28.png to /media/STEC_838C-1111/alice/Photos/master/2021/09/20/20210920_9401.png
 FINISH: totally scanned 1 directories, and imported 12 media files
 ```
+## 通过USB导入
+
+您可以直接通过USB来访问iPhone/Android，和无线方式比，这样导入比更快，特别是有大量照片的情况下。
+
+### iOS
+
+如果您使用Windows 11，照片会自动加载到电脑中，您可以直接在文件系统里访问。
+
+如果您使用Linux，可以参考[这里](https://opensource.com/article/21/8/libimobiledevice-iphone-linux)来安装libimobiledevice和ifuse来将iPhone的存储加载到文件系统中。照片目录加载到文件系统后，您就可以使用上述的导入工具来进行照片的导入了。
+
+如果您使用macOS，您依旧可以使用类似的工具，先安装libimobiledevice，但ifuse在macOS上不可用，您需要安装[osxfuse](https://github.com/osxfuse/osxfuse/releases)和[ifuse-mac](https://github.com/gromgit/homebrew-fuse)，您可以使用brew来安装ifuse-mac: `brew install gromgit/fuse/ifuse-mac`
+
+### Android
+TODO
 
 # 以往更新: 08/19/2021
 - 更新windows版本:发布64位版本，大于4G的文件直接导入
