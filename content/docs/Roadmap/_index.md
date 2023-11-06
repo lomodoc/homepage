@@ -53,7 +53,7 @@ Lomo backend will auto discover chromecast devices, add into the system as famil
 
 ## Android client
 * Background upload - Work In Progress  
-* Similarity detect based on content - Work In Progress  
+* Similarity detect based on content
 * Metadata search
 
 ## Lomo Importer:  
@@ -61,6 +61,5 @@ Lomo backend will auto discover chromecast devices, add into the system as famil
 
 ## Thirdparty integration
 * Magic Mirror module for lomorage - Work In Progress  
-* Amazon Fire TV - Work In Progress  
-* Roku app
+* Amazon Fire TV
 

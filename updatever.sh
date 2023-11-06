@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xe
 
 usage="
 $(basename $0) -p [osx|win|raspbian|armbian] [options...]

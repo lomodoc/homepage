@@ -30,7 +30,7 @@ cat /etc/apt/sources.list.d/lomoware.list
 显示结果如下：
 
 ```bash
-deb [trusted=yes] https://lomoware.lomorage.com/debian/buster buster main
+deb [trusted=yes] https://lomoware.lomorage.com/debian/bookworm bookworm main
 ```
 
 **如果中间的网址不是 lomoware.lomorage.com 那请按如下方法更改**, 否则跳到**步骤2直接开始升级**
