@@ -95,10 +95,10 @@ sudo update-ca-certificates --fresh
 curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
 ```
 
-If you are using buster:
+If you are using bookworm:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/bookworm bookworm main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 If you are using bullseye:

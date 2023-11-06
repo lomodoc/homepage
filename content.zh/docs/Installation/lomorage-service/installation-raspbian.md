@@ -95,10 +95,10 @@ curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo t
 
 ```
 
-如果您使用buster:
+如果您使用bookworm:
 
 ```bash
-echo "deb https://lomoware.lomorage.com/debian/buster buster main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+echo "deb https://lomoware.lomorage.com/debian/bookworm bookworm main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 如果您使用bullseye:
