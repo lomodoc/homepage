@@ -10,13 +10,10 @@ Currently you can install the app on **Android** phone, the minimal version is *
 
 **Click below icon to go to Goole Play Store to download.**
 
-**Update：01/08/2023**
+**Update：09/04/2023**
 
 <p align="center">
 <a href="https://play.google.com/store/apps/details?id=com.lomoware.lomorage"><img alt="Download" src="/img/installation/app-store-google.svg" width="220"></a>
-
-<p align="center">
-<a href="https://lomosw.lomorage.com/android/lomorage.apk">Directly download APK</a>
 
 <p align="center">
 <a href="https://github.com/lomorage/lomo-android-apk-release/releases">Download from github release page</a>
@@ -93,12 +90,17 @@ Or you can use scan QR code to get "Lomorage Photo Assistant" configuration. <p 
   <img width="80%" src="/img/installation/android/7e6e06aa-91c6-4155-a39c-62835f61652c.jpg">
   <img width="80%" src="/img/installation/android/4938d1f3-17d1-4182-af04-d518cab0bc83.jpg">
 
-   Or you can send the feedback here to the Lomorage team. <p />
+</div>
+
+## Send the feedback to Lomorage team
+<div>
+  You can send the feedback here to the Lomorage team. <p />
   <img width="80%" src="/img/installation/android/7389eda7-6699-4d72-857e-c169b47f669b.jpg">
 
-    Enjoy, any questions please let us know via email or site's contact form.
-
 </div>
+
+**Any questions please let us know via email or site's 
+[contact form.](https://lomorage.com/contact/)**
 
 ## Enable/Disable which folder need to backup
 
