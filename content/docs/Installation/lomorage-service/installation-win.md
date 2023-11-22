@@ -15,14 +15,6 @@ Click the **Windows icon link** below to download "Lomorage Photo Assistant" For
 
 ## 2. Double click "lomoagent.msi" to start installation.
 
- If Windows Defender shows "lomoagent.msi" as unknown application, please follow the steps below to allow it to run.
-
-<div align="center">
-<p class="screenshoot">
-  <img width="50%" src="/img/installation/windows-defender-1.png">
-  <img width="50%" src="/img/installation/windows-defender-2.png">
-</p>
-</div>
 
 ## 3. Follow the wizard
  to finish the installation, in the End-User License Agreement, please checked the box as below.
