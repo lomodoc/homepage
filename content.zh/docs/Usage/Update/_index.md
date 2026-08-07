@@ -59,6 +59,26 @@ sudo nano  /etc/apt/sources.list.d/lomoware.list
 sudo apt update && sudo apt install lomo-backend
 ```
 
+### 如果 `apt update` 报签名错误 (NO_PUBKEY / GPG error)
+
+如果您看到类似下面的错误：
+
+```
+W: GPG error: https://lomoware.lomorage.com/debian/bookworm bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY xxxxxxxxxxxxxxxx
+```
+
+这说明我们更新了源的签名密钥（比如旧密钥丢失需要更换），而您的系统里还是旧的密钥。重新执行一遍安装密钥的步骤即可：
+
+```bash
+sudo apt install -y ca-certificates
+sudo update-ca-certificates --fresh
+curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/lomorage-apt-key.gpg > /dev/null
+```
+
+然后重新运行第2步的升级命令。
+
+**注意**：如果您的 `/etc/apt/sources.list.d/lomoware.list` 里的内容是 `deb [trusted=yes] ...`（带 `[trusted=yes]`），说明这台设备本来就跳过了签名校验，不会碰到这个问题，也不需要执行上面的步骤。
+
 ## 3. 在手机端 设置 页面 查看您的服务器信息，确保升级成功
 
 如果有问题，请加微信或者发email到 lomorage@gmail.com.
