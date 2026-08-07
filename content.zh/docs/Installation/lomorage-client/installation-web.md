@@ -5,7 +5,7 @@ weight: 3
 
 # 安装Lomorage网页客户端
 
-您可以使用Lomorage网页客户端来上传电脑里面的照片和视频，并且可以使用图库来浏览已经备份的照片和视频。
+您可以使用Lomorage网页客户端来上传电脑里面的照片和视频，并且可以使用图库来浏览已经备份的照片和视频。您还可以打开收件箱，查看其他家庭成员分享给您的照片和视频。
 
 如果您使用MacOS版本的“Lomorage照片助手”，您可以点击“Lomorage照片助手”应用的“网页浏览”菜单打开网页客户端。
 
@@ -16,7 +16,8 @@ weight: 3
 <div align="center">
 <p class="screenshoot">
   <img width="100%" src="/img/installation/lomo-web-login.png">
+  <img width="100%" src="/img/installation/lomo-web-gallery.png">
   <img width="100%" src="/img/installation/lomo-web-upload.png">
-  <img width="90%" src="/img/installation/lomo-web-gallery.png">
+  <img width="100%" src="/img/installation/lomo-web-inbox.png">
 </p>
 </div>

@@ -14,6 +14,7 @@ title: "Roadmap"
 * Auto mirror backed-up photos / videos to the secondary hard drive nightly
   * Need configure the secondary hard drive at mobile client user setting.
 * Family oriented backup and sharing. Each user have its own account and stored under their own home directory.
+* QR code sign-in pairing, so non-technical family members can be signed into their own account by scanning a code shown on another device, without typing a password.
 * Share photos / videos among family members without leaking to internet.
 * Share photos / videos to TV / monitor screen via below ways:
   *  Lomoframe: User can send selected photos / videos to lomoframe users.
@@ -28,6 +29,7 @@ title: "Roadmap"
 ## Web Client
 * User can import photos / videos from local computer .
 * User can browse remote photos / videos from local computer.
+* User can view photos / videos shared by family members in the Inbox.
 
 ## Lomo importer
 Native application cross Windows /MAC OS to allow user batch import assets

@@ -13,6 +13,7 @@ title: "Highlight"
 - Similarity check, you can choose to save the best one with multiple shoots。
 - Access photos seamlessly on multiple device with one account.
 - Isolated accounts for family members, keep your privacy.
+- Non-technical family members (kids, grandparents) can sign in instantly by scanning a QR code, no password typing needed.
 - Save secrets with encryption. (coming soon)
 - Sharing tons of photos without worry about phone storage.
 - No need to save photo locally to share in social network.

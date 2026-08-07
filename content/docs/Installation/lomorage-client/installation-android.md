@@ -92,6 +92,10 @@ Or you can use scan QR code to get "Lomorage Photo Assistant" configuration. <p 
 
 </div>
 
+## Sign in a family member without typing a password
+
+For family members who aren't comfortable typing a server address and password (kids, grandparents), open Settings on a device that's already signed in and choose **Show Sign-In Code**. Enter their username and password once to generate a QR code, then hand your phone to them to scan it and they'll be signed straight into their own account. The code embeds their password, so only let them scan it directly — don't screenshot or forward it. Nothing is saved on that screen; you can come back and regenerate the code any time.
+
 ## Send the feedback to Lomorage team
 <div>
   You can send the feedback here to the Lomorage team. <p />

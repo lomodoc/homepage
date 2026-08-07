@@ -22,6 +22,8 @@ Then you can create user, choose the place you want to store your photos on the 
 
 Lomorage APP will use AI to analyze photos, so that you can search by date, location, objects and text. You can also find those similar photos.
 
+For family members who aren't comfortable typing a server address and password (kids, grandparents), open Settings on a device that's already signed in and choose **Show Sign-In Code**. Enter their username and password once to generate a QR code, then hand your phone to them to scan it and they'll be signed straight into their own account. The code embeds their password, so only let them scan it directly — don't screenshot or forward it.
+
 <div align="center">
 <p class="screenshoot">
   <img width="30%" src="/img/installation/ios-mdns-discover.png">
