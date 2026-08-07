@@ -32,5 +32,5 @@ jobs:
           external_repository: lomodoc/lomodoc.github.io
           publish_branch: master
           publish_dir: ./public
-          emptyCommits: false
-          commitMessage: ${{ github.event.head_commit.message }}
+          allow_empty_commit: false
+          commit_message: ${{ github.event.head_commit.message }}
