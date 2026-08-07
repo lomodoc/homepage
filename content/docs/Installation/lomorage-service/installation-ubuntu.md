@@ -11,7 +11,7 @@ Please refer to [lomo-docker](https://github.com/lomorage/lomo-docker) for insta
 
 # APT installation
 
-**Currently we only support x86/AMD64 Ubuntu 18.04.5 LTS (Bionic Beaver) and Ubuntu 20.04.1 LTS (Focal Fossa).**
+**Currently we only support x86/AMD64 Ubuntu 18.04.5 LTS (Bionic Beaver), Ubuntu 20.04.1 LTS (Focal Fossa), Ubuntu 22.04 LTS (Jammy Jellyfish), and Ubuntu 24.04 LTS (Noble Numbat).**
 
 ## 1. Add lomoware source
 
@@ -31,6 +31,18 @@ If you are using Focal:
 
 ```bash
 echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+If you are using Jammy:
+
+```bash
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/jammy jammy main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+If you are using Noble:
+
+```bash
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/noble noble main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 then run:

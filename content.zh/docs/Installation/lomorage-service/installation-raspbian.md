@@ -95,6 +95,12 @@ curl -fsSL https://lomoware.lomorage.com/debian/gpg.key | gpg --dearmor | sudo t
 
 ```
 
+如果您使用trixie:
+
+```bash
+echo "deb https://lomoware.lomorage.com/debian/trixie trixie main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
 如果您使用bookworm:
 
 ```bash

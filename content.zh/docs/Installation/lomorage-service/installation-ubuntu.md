@@ -11,7 +11,7 @@ weight: 3
 
 # APT安装
 
-**当前我们只支持x86/AMD64 Ubuntu 18.04.5 LTS (Bionic Beaver)和Ubuntu 20.04.1 LTS (Focal Fossa)。**
+**当前我们只支持x86/AMD64 Ubuntu 18.04.5 LTS (Bionic Beaver)、Ubuntu 20.04.1 LTS (Focal Fossa)、Ubuntu 22.04 LTS (Jammy Jellyfish)和Ubuntu 24.04 LTS (Noble Numbat)。**
 
 ## 1. 安装lomoware源
 
@@ -31,6 +31,18 @@ echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/bionic bionic main" 
 
 ```bash
 echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/focal focal main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+如果您使用jammy:
+
+```bash
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/jammy jammy main" | sudo tee /etc/apt/sources.list.d/lomoware.list
+```
+
+如果您使用noble:
+
+```bash
+echo "deb [arch=amd64] https://lomoware.lomorage.com/debian/noble noble main" | sudo tee /etc/apt/sources.list.d/lomoware.list
 ```
 
 然后运行:
