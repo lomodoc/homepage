@@ -28,7 +28,7 @@ googleAnalytics = "UA-138235951-2"
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 [languages]
 [languages.en]
-  languageName = 'English'
+  label = 'English'
   contentDir = 'content'
   weight = 1
 
@@ -50,7 +50,7 @@ googleAnalytics = "UA-138235951-2"
 
 [languages.zh]
   title = 'Lomorage文档'
-  languageName = '中文'
+  label = '中文'
   contentDir = 'content.zh'
   weight = 2
 
