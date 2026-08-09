@@ -70,6 +70,14 @@ Web client as below picture.
 
 ## 8. if create user failed， please try to turn off Windows Firewall
 
+## 9. Advanced: Command Line Install
+
+Prefer scripting it? This installs just the lomod backend (no GUI/tray) to your user profile, no admin rights required. Open PowerShell and run:
+
+```powershell
+irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+```
+
 Enjoy!
 
 **Contact to us: support@lomorage.com**

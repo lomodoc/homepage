@@ -30,3 +30,11 @@ weight: 5
   <img width="50%" src="/img/installation/osx-lomo-agent.png">
 </p>
 </div>
+
+## 5. 高级选项：命令行安装
+
+喜欢用命令行？这将只安装 lomod 后端服务（无图形界面）到你的用户目录下，无需管理员权限。打开"终端"并运行：
+
+```bash
+curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
+```

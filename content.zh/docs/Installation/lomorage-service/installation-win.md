@@ -136,4 +136,12 @@ http://B机器的ip:端口号。
 
 **如果您用苹果手机拍摄使用的HEVC/HEIF格式，请下载HEVC/HEIF扩展插件，参考https://blog.csdn.net/weixin_43168190/article/details/117698977**
 
+## 11. 高级选项：命令行安装
+
+喜欢用命令行？这将只安装 lomod 后端服务（无图形界面/托盘图标）到你的用户目录下，无需管理员权限。打开 PowerShell 并运行：
+
+```powershell
+irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+```
+
 

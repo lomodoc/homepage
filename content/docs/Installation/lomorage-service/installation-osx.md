@@ -30,3 +30,11 @@ weight: 5
   <img width="50%" src="/img/installation/osx-lomo-agent.png">
 </p>
 </div>
+
+## 5. Advanced: Command Line Install
+
+Prefer scripting it? This installs just the lomod backend (no GUI/menu bar) to your user profile, no admin rights required. Open Terminal and run:
+
+```bash
+curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
+```
