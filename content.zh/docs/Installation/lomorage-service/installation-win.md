@@ -138,10 +138,10 @@ http://B机器的ip:端口号。
 
 ## 11. 高级选项：命令行安装
 
-喜欢用命令行？这将只安装 lomod 后端服务（无图形界面/托盘图标）到你的用户目录下，无需管理员权限。打开 PowerShell 并运行：
+喜欢用命令行？这将只安装 lomod 后端服务（无图形界面/托盘图标）到你的用户目录下，无需管理员权限。打开 PowerShell 并运行（下载安装包时会走 gfw.lomorage.com 加速代理）：
 
 ```powershell
-irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+$env:LOMOD_CHINA=1; irm https://lomosw.lomorage.com/windows/install.ps1 | iex
 ```
 
 

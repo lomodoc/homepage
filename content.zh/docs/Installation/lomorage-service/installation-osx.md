@@ -33,8 +33,8 @@ weight: 5
 
 ## 5. 高级选项：命令行安装
 
-喜欢用命令行？这将只安装 lomod 后端服务（无图形界面）到你的用户目录下，无需管理员权限。打开"终端"并运行：
+喜欢用命令行？这将只安装 lomod 后端服务（无图形界面）到你的用户目录下，无需管理员权限。打开"终端"并运行（下载安装包时会走 gfw.lomorage.com 加速代理）：
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
+curl -fsSL https://lomosw.lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
 ```
