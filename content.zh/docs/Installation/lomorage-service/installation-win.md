@@ -68,7 +68,7 @@ Enjoy!
 **联系我们: support@lomorage.com**
 
 {{< hint info >}}
-**关于苹果手机的 HEIC 照片 / HEVC 视频：** Lomorage 网页客户端在你查看时会自动把它们转换成浏览器能直接播放的格式，不需要额外安装任何东西。下面这两个扩展插件只在你**同时**想让 Windows 资源管理器/照片应用直接显示数据目录里原始文件的缩略图时才需要，安装
+**关于苹果手机的 HEIC 照片 / HEVC 视频：** Lomorage 网页客户端在你查看时会自动把它们转换成浏览器能直接播放的格式，光是这一点不需要额外安装任何东西。但*原始文件*在磁盘上——包括数据目录里的，以及你从 Lomorage 下载下来（而不是在网页里查看）的——仍然是 HEIC/HEVC 格式。如果你想让 Windows 资源管理器/照片应用（不管是这台电脑还是其他电脑）能正常显示或播放这些原始文件，安装
 "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)"
 和
 "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)"

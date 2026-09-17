@@ -82,10 +82,11 @@ Enjoy!
 
 {{< hint info >}}
 **Note on iPhone HEIC photos / HEVC videos:** the Lomorage web client converts these to
-browser-friendly formats automatically when you view them, so you don't need to install
-anything extra for that. The codec extensions below are only relevant if you *also* want
-Windows Explorer/Photos to show thumbnails for the original files sitting in your data
-folder — install the
+browser-friendly formats automatically when you view them there, so you don't need to install
+anything extra just for that. But the *original* file stays HEIC/HEVC on disk — in your data
+folder, and in anything you download from Lomorage rather than just view in the browser. If
+you want Windows Explorer/Photos (on this PC or any other) to display or play those original
+files, install the
 "[HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg?activetab=pivot:overviewtab)"
 and "[HEVC Video Extensions](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7?activetab=pivot:overviewtab)"
 for that.
