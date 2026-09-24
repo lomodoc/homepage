@@ -10,7 +10,7 @@ weight: 4
 Open **PowerShell** (no need to run as Administrator) and paste in:
 
 ```powershell
-irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+irm https://lomorage.com/windows/install.ps1 | iex
 ```
 
 This downloads `lomod.exe` and everything it needs (vips, exiftool, ffmpeg), installs it to
@@ -21,7 +21,7 @@ If you're in mainland China and GitHub downloads are slow or fail, set this firs
 download goes through an accelerator proxy instead:
 
 ```powershell
-$env:LOMOD_CHINA=1; irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+$env:LOMOD_CHINA=1; irm https://lomorage.com/windows/install.ps1 | iex
 ```
 {{< /hint >}}
 
@@ -37,7 +37,7 @@ If you'd rather use a different drive or folder (for example an external drive),
 script first instead of piping it straight into `iex`, then run it with `-DataDir`:
 
 ```powershell
-irm https://lomosw.lomorage.com/windows/install.ps1 -OutFile install.ps1
+irm https://lomorage.com/windows/install.ps1 -OutFile install.ps1
 ./install.ps1 -DataDir "D:\Lomorage"
 ```
 

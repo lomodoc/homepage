@@ -25,9 +25,9 @@ Lomorage 导入工具是把照片和视频批量导入到Lomorage系统的桌面
 
 **如果您使用的是Windows的Lomorage照片助手，可以直接从照片助手程序界面启动导入工具，而无需再下载该导入工具！**
 
-- Windows [点击下载最新导入工具](https://lomosw.lomorage.com/windows/LomoImporter.zip)
+- Windows [点击下载最新导入工具](https://lomorage.com/windows/LomoImporter.zip)
   
-- MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://lomosw.lomorage.com/mac/LomoImporter.zip)
+- MacOS [LomoImporter.app2021-08-31_14-13-34_mac.zip](https://lomorage.com/mac/LomoImporter.zip)
 
 
 # 快速使用视频

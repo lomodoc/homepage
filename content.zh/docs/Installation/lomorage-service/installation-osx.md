@@ -10,7 +10,7 @@ weight: 5
 打开"终端"（不需要 `sudo`），执行：
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
+curl -fsSL https://lomorage.com/mac/install.sh | bash
 ```
 
 这会自动下载 `lomod` 以及它需要的所有组件（vips、exiftool、ffmpeg），安装到你自己的用户目录下并启动——没有 `.dmg` 安装包，不需要输入管理员密码，也不需要重启电脑。
@@ -19,7 +19,7 @@ curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
 如果你在国内，GitHub 下载比较慢或者失败，可以走加速代理：
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
+curl -fsSL https://lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
 ```
 {{< /hint >}}
 
@@ -32,7 +32,7 @@ curl -fsSL https://lomosw.lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
 如果你想用别的磁盘或文件夹（比如外接硬盘），不要直接用管道方式运行脚本，而是先下载下来，再带上 `--data-dir` 参数运行：
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh -o install.sh
+curl -fsSL https://lomorage.com/mac/install.sh -o install.sh
 chmod +x install.sh
 ./install.sh --data-dir "/Volumes/MyDrive/Lomorage"
 ```

@@ -10,7 +10,7 @@ weight: 5
 Open **Terminal** (no `sudo` needed) and run:
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh | bash
+curl -fsSL https://lomorage.com/mac/install.sh | bash
 ```
 
 This downloads `lomod` and everything it needs (vips, exiftool, ffmpeg), installs it to your
@@ -21,7 +21,7 @@ If you're in mainland China and GitHub downloads are slow or fail, route the dow
 an accelerator proxy instead:
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
+curl -fsSL https://lomorage.com/mac/install.sh | LOMOD_CHINA=1 bash
 ```
 {{< /hint >}}
 
@@ -37,7 +37,7 @@ If you'd rather use a different drive or folder (for example an external drive),
 script first instead of piping it straight into `bash`, then run it with `--data-dir`:
 
 ```bash
-curl -fsSL https://lomosw.lomorage.com/mac/install.sh -o install.sh
+curl -fsSL https://lomorage.com/mac/install.sh -o install.sh
 chmod +x install.sh
 ./install.sh --data-dir "/Volumes/MyDrive/Lomorage"
 ```

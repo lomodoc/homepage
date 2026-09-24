@@ -10,7 +10,7 @@ weight: 4
 打开 **PowerShell**（不需要以管理员身份运行），粘贴执行：
 
 ```powershell
-irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+irm https://lomorage.com/windows/install.ps1 | iex
 ```
 
 这会自动下载 `lomod.exe` 以及它需要的所有组件（vips、exiftool、ffmpeg），安装到你自己的用户目录下并启动——没有安装向导窗口，不需要管理员权限，也不需要重启电脑。
@@ -19,7 +19,7 @@ irm https://lomosw.lomorage.com/windows/install.ps1 | iex
 如果你在国内，GitHub 下载比较慢或者失败，可以先设置这个环境变量，让下载走加速代理：
 
 ```powershell
-$env:LOMOD_CHINA=1; irm https://lomosw.lomorage.com/windows/install.ps1 | iex
+$env:LOMOD_CHINA=1; irm https://lomorage.com/windows/install.ps1 | iex
 ```
 {{< /hint >}}
 
@@ -32,7 +32,7 @@ $env:LOMOD_CHINA=1; irm https://lomosw.lomorage.com/windows/install.ps1 | iex
 如果你想用别的磁盘或文件夹（比如外接硬盘），不要直接用 `irm ... | iex` 这种一行命令，而是先把脚本下载下来，再带上 `-DataDir` 参数运行：
 
 ```powershell
-irm https://lomosw.lomorage.com/windows/install.ps1 -OutFile install.ps1
+irm https://lomorage.com/windows/install.ps1 -OutFile install.ps1
 ./install.ps1 -DataDir "D:\Lomorage"
 ```
 
