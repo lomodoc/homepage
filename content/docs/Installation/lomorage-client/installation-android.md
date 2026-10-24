@@ -17,7 +17,7 @@ aliases:
 
 ## What you get
 
-- **Backup over home Wi-Fi**: photos and videos go from your phone to your own PC or Mac.
+- **Backup to your own computer**: photos and videos go from your phone to your own PC or Mac.
 - **Free Up Space**: removes items from your phone that are already backed up.
 - **On-device AI search**: find photos by content, including text in photos; browse on a map; find duplicates.
 
@@ -35,6 +35,6 @@ The new app backs up to the free Lomorage Photo Assistant on your PC or Mac. If 
 - [Mac (OSX)](/docs/Installation/lomorage-service/installation-osx/)
 - [Other platforms (Raspberry Pi, Linux, NAS, Docker)](/docs/Installation/lomorage-service/)
 
-Your phone and computer need to be on the same home Wi-Fi.
+Your phone finds your computer automatically on the same home Wi-Fi, or you can enter your server address by hand.
 
 **Any questions? Contact us by email or the site's [contact form](https://lomorage.com/contact/).**
